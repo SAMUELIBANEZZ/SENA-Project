@@ -5,7 +5,7 @@
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="separador">
 </p>
 
-<h1 align="center">🛡️ Proyecto Cúcuta Segura: Ciberseguridad para las Nuevas Generaciones</h1>
+<h1 align="center">🛡️ Ciberseguridad para las nuevas generaciones en Cúcuta: análisis de contexto, estado del arte y prospectiva tecnológica 2026-2031</h1>
 
 <p align="center">
   <em>Marco teórico y formulación estratégica para la mitigación de riesgos digitales en Cúcuta, Norte de Santander.</em>
