@@ -1,165 +1,2215 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cúcuta Segura | Proyecto de Ciberseguridad</title>
-    <style>
-        :root {
-            --primary-color: #049fd9;
-            --dark-bg: #0d1117;
-            --light-text: #c9d1d9;
-            --card-bg: #161b22;
-            --border-color: #30363d;
-        }
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-        }
-        body {
-            background-color: var(--dark-bg);
-            color: var(--light-text);
-            line-height: 1.6;
-        }
-        header {
-            background-color: var(--card-bg);
-            padding: 4rem 2rem;
-            text-align: center;
-            border-bottom: 1px solid var(--border-color);
-        }
-        header h1 {
-            font-size: 2.5rem;
-            color: #fff;
-            margin-bottom: 1rem;
-        }
-        header p {
-            font-size: 1.2rem;
-            color: #8b949e;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 3rem 2rem;
-        }
-        .section-title {
-            color: #fff;
-            font-size: 1.8rem;
-            margin-bottom: 1.5rem;
-            border-bottom: 2px solid var(--primary-color);
-            display: inline-block;
-            padding-bottom: 0.5rem;
-        }
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin-bottom: 3rem;
-        }
-        .card {
-            background-color: var(--card-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            padding: 2rem;
-            transition: transform 0.3s ease;
-        }
-        .card:hover {
-            transform: translateY(-5px);
-            border-color: var(--primary-color);
-        }
-        .card h3 {
-            color: #fff;
-            margin-bottom: 1rem;
-        }
-        .tech-tags {
-            display: flex;
-            gap: 0.5rem;
-            flex-wrap: wrap;
-            margin-top: 1.5rem;
-        }
-        .tag {
-            background-color: rgba(4, 159, 217, 0.1);
-            color: var(--primary-color);
-            padding: 0.3rem 0.8rem;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            border: 1px solid rgba(4, 159, 217, 0.3);
-        }
-        .btn {
-            display: inline-block;
-            background-color: var(--primary-color);
-            color: #fff;
-            text-decoration: none;
-            padding: 0.8rem 1.5rem;
-            border-radius: 6px;
-            font-weight: bold;
-            margin-top: 2rem;
-            transition: background-color 0.3s;
-        }
-        .btn:hover {
-            background-color: #037bb0;
-        }
-        footer {
-            text-align: center;
-            padding: 2rem;
-            border-top: 1px solid var(--border-color);
-            margin-top: 3rem;
-            color: #8b949e;
-        }
-    </style>
-</head>
-<body>
-
-    <header>
-        <h1>🛡️ Cúcuta Segura</h1>
-        <p>Fortalecimiento integral de las capacidades de ciberseguridad e infraestructura de redes para las nuevas generaciones (2026-2031).</p>
-        <a href="https://github.com/SAMUELIBANEZZ/SENA-Project" class="btn" target="_blank">Ver Proyecto en GitHub</a>
-    </header>
-
-    <div class="container">
-        <section>
-            <h2 class="section-title">El Proyecto</h2>
-            <p style="margin-bottom: 2rem;">Este portafolio documenta la investigación teórica y la formulación estratégica para mitigar los riesgos digitales en Cúcuta. El enfoque abarca desde la estructuración de políticas de concientización hasta el diseño seguro de infraestructuras de telecomunicaciones.</p>
-            
-            <div class="grid">
-                <div class="card">
-                    <h3>🌐 Infraestructura y Redes</h3>
-                    <p>Diseño y segmentación de topologías corporativas. Implementación de redes robustas orientadas a aislar amenazas mediante VLANs, interfaces virtuales y protocolos de enrutamiento seguros (IPv4/IPv6).</p>
-                    <div class="tech-tags">
-                        <span class="tag">Switching</span>
-                        <span class="tag">VLAN</span>
-                        <span class="tag">Cisco IOS</span>
-                    </div>
-                </div>
-                
-                <div class="card">
-                    <h3>🔒 Ciberseguridad Aplicada</h3>
-                    <p>Análisis de exposición a vulnerabilidades como el phishing y robo de credenciales. Auditoría de tráfico e identificación de vectores de ataque en redes inalámbricas locales.</p>
-                    <div class="tech-tags">
-                        <span class="tag">Auditoría Wi-Fi</span>
-                        <span class="tag">Análisis de Tráfico</span>
-                        <span class="tag">Prevención</span>
-                    </div>
-                </div>
-                
-                <div class="card">
-                    <h3>📚 Análisis y Documentación</h3>
-                    <p>Estructuración de árboles de problemas y objetivos para trazar rutas claras de acción. Documentación técnica de estándares y manuales de buenas prácticas digitales.</p>
-                    <div class="tech-tags">
-                        <span class="tag">Marco Teórico</span>
-                        <span class="tag">Diagramación</span>
-                    </div>
-                </div>
+<!DOCTYPE html><html class="dark" lang="es"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><title>CYBERSEC RESEARCH LAB</title><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;scroll-behavior:smooth;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {"darkMode":"class","theme":{"extend":{"colors":{"secondary-fixed":"#5fff9a","surface-container":"#1c211f","secondary":"#3fe583","primary":"#f1ffef","on-secondary-fixed":"#00210c","surface":"#0f1413","secondary-container":"#00c86a","surface-tint":"#00e479","surface-bright":"#353a38","on-tertiary-fixed-variant":"#294e3c","tertiary-fixed-dim":"#a7d0b8","on-tertiary-fixed":"#002113","outline-variant":"#3b4b3d","on-primary":"#003919","tertiary":"#effff3","on-surface-variant":"#b9cbb9","surface-container-lowest":"#0a0f0d","background":"#0f1413","error-container":"#93000a","on-secondary-fixed-variant":"#005228","on-tertiary":"#103726","secondary-fixed-dim":"#3ae280","on-primary-container":"#007139","on-error":"#690005","surface-variant":"#313634","tertiary-container":"#bee8cf","on-surface":"#dfe4e0","surface-dim":"#0f1413","error":"#ffb4ab","surface-container-low":"#181d1b","on-primary-fixed":"#00210c","surface-container-high":"#262b29","inverse-primary":"#006d37","inverse-on-surface":"#2c312f","primary-fixed":"#60ff99","on-error-container":"#ffdad6","primary-fixed-dim":"#00e479","outline":"#849585","tertiary-fixed":"#c2ecd3","on-secondary-container":"#004c25","on-primary-fixed-variant":"#005228","surface-container-highest":"#313634","on-background":"#dfe4e0","on-tertiary-container":"#446a56","inverse-surface":"#dfe4e0","primary-container":"#00ff88","on-secondary":"#00391a"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"space-xl":"2rem","gutter-desktop":"1.5rem","margin-tablet":"1.5rem","margin-mobile":"1rem","space-3xl":"4.5rem","space-2xs":"0.25rem","space-2xl":"3rem","max-width":"1440px","space-sm":"0.75rem","space-md":"1rem","gutter-mobile":"0.75rem","margin-desktop":"3rem","gutter-tablet":"1rem","space-lg":"1.5rem","space-xs":"0.5rem"},"fontFamily":{"body-lg":["Inter"],"body-md":["Inter"],"headline-lg":["Space Grotesk"],"mono-lg":["JetBrains Mono"],"body-sm":["Inter"],"headline-lg-mobile":["Space Grotesk"],"headline-md":["Space Grotesk"],"mono-md":["JetBrains Mono"],"headline-sm":["Space Grotesk"],"headline-xl":["Space Grotesk"],"headline-xl-mobile":["Space Grotesk"],"mono-sm":["JetBrains Mono"]},"fontSize":{"body-lg":["16px",{"lineHeight":"26px","letterSpacing":"-0.005em","fontWeight":"400"}],"body-md":["14px",{"lineHeight":"22px","letterSpacing":"0em","fontWeight":"400"}],"headline-lg":["28px",{"lineHeight":"36px","letterSpacing":"-0.02em","fontWeight":"600"}],"mono-lg":["14px",{"lineHeight":"20px","letterSpacing":"-0.01em","fontWeight":"500"}],"body-sm":["12px",{"lineHeight":"18px","letterSpacing":"0.01em","fontWeight":"400"}],"headline-lg-mobile":["22px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-md":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"500"}],"mono-md":["12px",{"lineHeight":"18px","letterSpacing":"0.02em","fontWeight":"400"}],"headline-sm":["16px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"500"}],"headline-xl":["40px",{"lineHeight":"48px","letterSpacing":"-0.03em","fontWeight":"600"}],"headline-xl-mobile":["30px",{"lineHeight":"38px","letterSpacing":"-0.02em","fontWeight":"600"}],"mono-sm":["10px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"500"}]}}}};</script></head><body class="bg-surface-container-lowest font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.3)]"><div class="h-16 max-w-[1440px] mx-auto px-gutter-desktop flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><img alt="CYBERSEC RESEARCH LAB Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1ULdXjoaXr01QuUzDC-RZ4XtbbWcKS0Vap5p1HKYn0rV6npdkw2qKxVZmE_NnE6c7N7idCBVwTqZIXR0Y9PSXgr1Uwg8xFCCf0jSC_VX6A99joLniUJyGmAh_K2iBagnst-Okse3hGoLRHpV6RJze4tbgYkHUugjLlnE64kFNwmfnW5vvUQyHD6BvfsvHJXeqCskOifhYWZsEpI34XQCJ61tRrx35RGL957jTflvvQ2wDveUyph6FHjnhoW"><a class="font-headline-sm text-headline-sm text-primary tracking-tight uppercase flex items-center gap-space-xs" href="#inicio">CYBERSEC <span class="text-secondary font-mono-sm text-mono-sm px-1.5 py-0.5 rounded bg-surface-container-high">LAB</span></a><div class="hidden xl:flex items-center gap-space-xs px-2 py-0.5 rounded bg-surface-container-low"><span class="relative flex h-2 w-2"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary-container opacity-75"></span><span class="relative inline-flex rounded-full h-2 w-2 bg-primary-container"></span></span><span class="font-mono-sm text-mono-sm text-primary-fixed uppercase tracking-wider">STATUS: FASE TEÓRICA</span></div></div><nav class="hidden lg:flex items-center gap-space-sm overflow-x-auto py-2" data-active-classes="text-primary font-semibold"><a aria-current="page" class="transition-colors whitespace-nowrap text-primary font-semibold transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(0,255,136,0.25)] active:scale-95 cursor-pointer" data-path="inicio" href="#inicio">Inicio</a><a class="font-mono-md text-mono-md text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(0,255,136,0.25)] active:scale-95 cursor-pointer" data-path="problematica" href="#problema">Problemática</a><a class="font-mono-md text-mono-md text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(0,255,136,0.25)] active:scale-95 cursor-pointer" data-path="investigacion" href="#investigacion">Investigación</a><a class="font-mono-md text-mono-md text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(0,255,136,0.25)] active:scale-95 cursor-pointer" data-path="amenazas" href="#amenazas">Amenazas</a><a class="font-mono-md text-mono-md text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(0,255,136,0.25)] active:scale-95 cursor-pointer" data-path="infraestructura" href="#infraestructura">Infraestructura</a><a class="font-mono-md text-mono-md text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(0,255,136,0.25)] active:scale-95 cursor-pointer" data-path="datos" href="#datos">Datos</a><a class="font-mono-md text-mono-md text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(0,255,136,0.25)] active:scale-95 cursor-pointer" data-path="mitigacion" href="#mitigacion">Mitigación</a><a href="#simulador" data-path="simulador" class="font-mono-md text-mono-md text-secondary-fixed hover:text-primary transition-colors whitespace-nowrap flex items-center gap-1 font-semibold transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(0,255,136,0.25)] active:scale-95 cursor-pointer"><span class="material-symbols-outlined text-[16px]">terminal</span>Simulador</a><a class="font-mono-md text-mono-md text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(0,255,136,0.25)] active:scale-95 cursor-pointer" data-path="educacion" href="#educacion">Educación</a><a class="font-mono-md text-mono-md text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(0,255,136,0.25)] active:scale-95 cursor-pointer" data-path="roadmap" href="#roadmap">Roadmap</a><a class="font-mono-md text-mono-md text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(0,255,136,0.25)] active:scale-95 cursor-pointer" data-path="recursos" href="#recursos">Recursos</a></nav><div class="flex items-center gap-space-sm shrink-0"><a href="#simulador" class="px-space-md py-1.5 rounded bg-secondary-container text-on-secondary font-mono-md text-mono-md uppercase tracking-wider hover:bg-primary-container hover:text-on-primary-container transition-all whitespace-nowrap">Laboratorio Interactivo</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface-container-lowest min-h-screen"><div class="flex flex-col w-full">
+<!-- Load Chart.js CDN for interactive charts -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<!-- 1. HERO SECTION (#inicio) -->
+<section class="relative w-full min-h-[92vh] flex items-center justify-center overflow-hidden py-space-3xl px-gutter-desktop" id="inicio">
+<!-- Ambient technical grid background (pure CSS/Tailwind) -->
+<div class="absolute inset-0 bg-[radial-gradient(#173D2C_1px,transparent_1px)] [background-size:32px_32px] opacity-25 pointer-events-none"></div>
+<div class="absolute -top-40 right-10 w-96 h-96 rounded-full bg-primary-container/5 blur-3xl pointer-events-none"></div>
+<div class="relative z-10 max-w-[1440px] w-full mx-auto flex flex-col items-start gap-space-xl">
+<!-- Status Badge -->
+<div class="inline-flex items-center gap-space-xs px-3 py-1.5 rounded bg-surface-container-high">
+<span class="relative flex h-2.5 w-2.5">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary-container opacity-90"></span>
+<span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-primary-container"></span>
+</span>
+<span class="font-mono-sm text-mono-sm uppercase tracking-widest text-primary font-semibold">
+          STATUS: FASE TEÓRICA / INVESTIGATIVA
+        </span>
+<span class="text-on-surface-variant font-mono-sm text-mono-sm ml-2 hidden sm:inline">| LAB-REF: CSRL-2026-T1</span>
+</div>
+<!-- Main Heading -->
+<div class="flex flex-col gap-space-sm max-w-5xl">
+<h1 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight uppercase">
+          LA SEGURIDAD DIGITAL COMIENZA <span class="text-secondary-container">ANTES DEL INCIDENTE.</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl">
+          Una iniciativa de investigación orientada a comprender la exposición de las nuevas generaciones frente a las amenazas digitales, desde la infraestructura de telecomunicaciones hasta la educación preventiva.
+        </p>
+</div>
+<!-- CTA Trigger Array -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<a class="px-space-xl py-3 rounded bg-secondary-container text-on-secondary font-mono-md text-mono-md font-semibold uppercase tracking-wider hover:bg-primary-container hover:text-on-primary-container transition-all flex items-center gap-space-xs duration-300 transform hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(0,255,136,0.25)] active:scale-95 cursor-pointer" href="#problema">
+<span class="">EXPLORAR PROYECTO</span>
+<span class="material-symbols-outlined text-[18px]">arrow_downward</span>
+</a>
+<a class="px-space-xl py-3 rounded bg-surface-container-high text-primary font-mono-md text-mono-md uppercase tracking-wider hover:bg-surface-variant transition-all flex items-center gap-space-xs duration-300 transform hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(0,255,136,0.25)] active:scale-95 cursor-pointer" href="#metodologia">
+<span class="">VER METODOLOGÍA</span>
+<span class="material-symbols-outlined text-[18px]">account_tree</span>
+</a><a href="#simulador" class="px-space-md py-3 font-mono-md text-mono-md text-secondary-fixed hover:text-primary transition-colors flex items-center gap-1 border border-outline-variant rounded bg-surface-container/50 transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(0,255,136,0.25)] active:scale-95 cursor-pointer"><span class="material-symbols-outlined text-[18px] text-secondary">terminal</span><span class="">[ SIMULADOR DEFENSIVO ]</span></a>
+<a class="px-space-md py-3 font-mono-md text-mono-md text-on-surface-variant hover:text-primary transition-colors flex items-center gap-1 transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(0,255,136,0.25)] active:scale-95 cursor-pointer" href="#datos">
+<span class="">[ TELEMETRÍA SIMULADA ]</span>
+</a>
+</div>
+<!-- Conceptual Telemetry Panel Matrix -->
+<div class="w-full grid grid-cols-2 md:grid-cols-4 gap-space-sm pt-space-xl">
+<div class="bg-surface-container-low p-space-md rounded flex flex-col gap-1 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(0,255,136,0.2)]">
+<div class="flex items-center justify-between text-on-surface-variant font-mono-sm text-mono-sm">
+<span class="">MODO DE ESTUDIO</span>
+<span class="material-symbols-outlined text-[16px] text-secondary">visibility</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-primary font-semibold">OBSERVACIONAL</span>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">Sin intrusión activa</span>
+</div>
+<div class="bg-surface-container-low p-space-md rounded flex flex-col gap-1 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(0,255,136,0.2)]">
+<div class="flex items-center justify-between text-on-surface-variant font-mono-sm text-mono-sm">
+<span class="">TOPOLOGÍA DE NODOS</span>
+<span class="material-symbols-outlined text-[16px] text-secondary">lan</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-primary font-semibold">128 NODOS</span>
+<span class="font-mono-sm text-mono-sm text-primary-container">Simulación distribuida</span>
+</div>
+<div class="bg-surface-container-low p-space-md rounded flex flex-col gap-1 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(0,255,136,0.2)]">
+<div class="flex items-center justify-between text-on-surface-variant font-mono-sm text-mono-sm">
+<span class="">ESTÁNDAR CRIPTOGRÁFICO</span>
+<span class="material-symbols-outlined text-[16px] text-secondary">lock</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-primary font-semibold">TLS 1.3 / IPsec</span>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">Modelado RFC 8446</span>
+</div>
+<div class="bg-surface-container-low p-space-md rounded flex flex-col gap-1 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(0,255,136,0.2)]">
+<div class="flex items-center justify-between text-on-surface-variant font-mono-sm text-mono-sm">
+<span class="">PARADIGMA OPERATIVO</span>
+<span class="material-symbols-outlined text-[16px] text-secondary">verified_user</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-primary font-semibold">ZERO-TRUST</span>
+<span class="font-mono-sm text-mono-sm text-primary-container">NIST SP 800-207</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. SECCIÓN 'EL PROBLEMA' (#problema) -->
+<section class="w-full py-space-3xl px-gutter-desktop bg-surface-container-lowest" id="problema">
+<div class="max-w-[1440px] mx-auto flex flex-col gap-space-2xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md pb-space-md">
+<div>
+<div class="font-mono-sm text-mono-sm text-secondary uppercase tracking-widest mb-2">01 // DIAGNÓSTICO DEL CONTEXTO ACTUAL</div>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold uppercase tracking-tight">¿A QUÉ NOS ENFRENTAMOS?</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+          La transformación digital ha incrementado nuestra dependencia de redes, dispositivos y servicios conectados. Esta expansión también aumenta la superficie de exposición frente a amenazas como phishing, robo de credenciales, malware, ingeniería social, configuraciones inseguras y explotación de vulnerabilidades.
+        </p>
+</div>
+<!-- 4 Technical High-Contrast Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-space-md">
+<!-- Card 01 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between hover:bg-surface-container-high transition-colors">
+<div>
+<div class="flex items-center justify-between font-mono-lg text-mono-lg text-secondary font-bold mb-space-sm">
+<span class="">01</span>
+<span class="material-symbols-outlined text-[20px]">devices_other</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-space-xs font-semibold">Mayor Exposición</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Más dispositivos conectados significan una superficie de ataque más amplia en redes convergentes e híbridas.
+            </p>
+</div>
+<div class="pt-space-md font-mono-sm text-mono-sm text-secondary uppercase">Vector: Expansión Perimetral</div>
+</div>
+<!-- Card 02 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between hover:bg-surface-container-high transition-colors">
+<div>
+<div class="flex items-center justify-between font-mono-lg text-mono-lg text-secondary font-bold mb-space-sm">
+<span class="">02</span>
+<span class="material-symbols-outlined text-[20px]">bug_report</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-space-xs font-semibold">Vulnerabilidades</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Errores de configuración, software desactualizado y malas prácticas generan puntos críticos de intrusión en capas de transporte y aplicación.
+            </p>
+</div>
+<div class="pt-space-md font-mono-sm text-mono-sm text-secondary uppercase">Vector: CVEs &amp; Misconfigurations</div>
+</div>
+<!-- Card 03 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between hover:bg-surface-container-high transition-colors">
+<div>
+<div class="flex items-center justify-between font-mono-lg text-mono-lg text-secondary font-bold mb-space-sm">
+<span class="">03</span>
+<span class="material-symbols-outlined text-[20px]">psychology</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-space-xs font-semibold">Factor Humano</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              El desconocimiento y las tácticas de ingeniería social continúan siendo el vector inicial en el <span class="text-secondary font-semibold">82%</span> de los incidentes de seguridad registrados.
+            </p>
+</div>
+<div class="pt-space-md font-mono-sm text-mono-sm text-secondary uppercase">Vector: Manipulación Cognitiva</div>
+</div>
+<!-- Card 04 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between hover:bg-surface-container-high transition-colors">
+<div>
+<div class="flex items-center justify-between font-mono-lg text-mono-lg text-secondary font-bold mb-space-sm">
+<span class="">04</span>
+<span class="material-symbols-outlined text-[20px]">security_update_warning</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-space-xs font-semibold">Respuesta Insuficiente</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              La prevención efectiva exige combinar controles técnicos de red con formación y concientización continua y mensurable.
+            </p>
+</div>
+<div class="pt-space-md font-mono-sm text-mono-sm text-secondary uppercase">Vector: Brecha Operativa</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. SECCIÓN 'DE LA PROBLEMÁTICA A LA SOLUCIÓN' -->
+<section class="w-full py-space-2xl px-gutter-desktop bg-surface-container-low">
+<div class="max-w-[1440px] mx-auto flex flex-col gap-space-xl">
+<div class="flex flex-col gap-space-xs">
+<span class="font-mono-sm text-mono-sm text-secondary uppercase tracking-widest">METODOLOGÍA DINÁMICA DE RESOLUCIÓN</span>
+<h2 class="font-headline-lg text-headline-lg text-primary uppercase font-bold">DE LA PROBLEMÁTICA A LA SOLUCIÓN</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-3xl">
+          El proyecto propone abordar la ciberseguridad desde una perspectiva integral, combinando análisis técnico de infraestructura, estudio de incidentes y estrategias educativas continuas.
+        </p>
+</div>
+<!-- Horizontal Pipeline -->
+<div class="w-full overflow-x-auto pb-4">
+<div class="min-w-[900px] flex items-center justify-between gap-space-xs">
+<!-- Step 1 -->
+<div class="flex-1 bg-surface-container p-space-md rounded flex flex-col gap-2">
+<span class="font-mono-sm text-mono-sm text-secondary font-bold">01. PROBLEMA</span>
+<span class="font-headline-sm text-headline-sm text-primary font-medium">Exposición Digital</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Aparición de vectores no supervisados.</p>
+</div>
+<span class="material-symbols-outlined text-secondary text-xl">trending_flat</span>
+<!-- Step 2 -->
+<div class="flex-1 bg-surface-container p-space-md rounded flex flex-col gap-2">
+<span class="font-mono-sm text-mono-sm text-secondary font-bold">02. IDENTIFICACIÓN</span>
+<span class="font-headline-sm text-headline-sm text-primary font-medium">Topología &amp; Activos</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Mapeo de interfaces y dependencias.</p>
+</div>
+<span class="material-symbols-outlined text-secondary text-xl">trending_flat</span>
+<!-- Step 3 -->
+<div class="flex-1 bg-surface-container p-space-md rounded flex flex-col gap-2">
+<span class="font-mono-sm text-mono-sm text-secondary font-bold">03. ANÁLISIS</span>
+<span class="font-headline-sm text-headline-sm text-primary font-medium">Taxonomía Forense</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Correlación de vulnerabilidades conocidas.</p>
+</div>
+<span class="material-symbols-outlined text-secondary text-xl">trending_flat</span>
+<!-- Step 4 -->
+<div class="flex-1 bg-surface-container p-space-md rounded flex flex-col gap-2">
+<span class="font-mono-sm text-mono-sm text-secondary font-bold">04. MITIGACIÓN</span>
+<span class="font-headline-sm text-headline-sm text-primary font-medium">Controles Técnicos</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Hardening perimetral y segmentación.</p>
+</div>
+<span class="material-symbols-outlined text-secondary text-xl">trending_flat</span>
+<!-- Step 5 -->
+<div class="flex-1 bg-surface-container p-space-md rounded flex flex-col gap-2">
+<span class="font-mono-sm text-mono-sm text-secondary font-bold">05. EDUCACIÓN</span>
+<span class="font-headline-sm text-headline-sm text-primary font-medium">Cultura Resiliente</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Entrenamiento contra ingeniería social.</p>
+</div>
+<span class="material-symbols-outlined text-secondary text-xl">trending_flat</span>
+<!-- Step 6 -->
+<div class="flex-1 bg-surface-container-high p-space-md rounded flex flex-col gap-2">
+<span class="font-mono-sm text-mono-sm text-secondary-fixed font-bold">06. PREVENCIÓN</span>
+<span class="font-headline-sm text-headline-sm text-primary font-medium">Postura Cero</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Defensa en profundidad y monitoreo.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. SECCIÓN DE INVESTIGACIÓN (#investigacion) -->
+<section class="w-full py-space-3xl px-gutter-desktop bg-surface-container-lowest" id="investigacion">
+<div class="max-w-[1440px] mx-auto flex flex-col gap-space-2xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md pb-space-sm">
+<div>
+<div class="inline-flex items-center gap-2 px-2 py-0.5 rounded bg-surface-container-high font-mono-sm text-mono-sm text-primary uppercase mb-3">
+<span class="h-1.5 w-1.5 rounded-full bg-secondary"></span>
+            FASE ACTUAL: MODELADO TEÓRICO Y DOCUMENTAL
+          </div>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold uppercase tracking-tight">MARCO INVESTIGATIVO</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+          Ejes académicos estructurados bajo normativas internacionales (NIST, ISO/IEC 27001, MITRE ATT&amp;CK) para analizar la seguridad teórica en redes contemporáneas.
+        </p>
+</div>
+<!-- 6 Research Lines Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md">
+<!-- Line 1 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between text-secondary font-mono-sm text-mono-sm">
+<span class="">LÍNEA 01</span>
+<span class="material-symbols-outlined text-[20px]">router</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Seguridad de Redes</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Superficies de ataque dinámicas, protocolos defensivos criptográficos (TLS 1.3, MACsec) y evaluación de arquitecturas de confianza cero.
+            </p>
+</div>
+<div class="flex flex-wrap gap-1">
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-on-surface-variant">Zero-Trust</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-on-surface-variant">TLS 1.3</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-on-surface-variant">SASE</span>
+</div>
+</div>
+<!-- Line 2 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between text-secondary font-mono-sm text-mono-sm">
+<span class="">LÍNEA 02</span>
+<span class="material-symbols-outlined text-[20px]">settings_ethernet</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Telecomunicaciones</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Topología de backbone, seguridad BGP/RPKI, conmutación de tráfico mayorista de ISPs y resiliencia en puntos de intercambio IXP.
+            </p>
+</div>
+<div class="flex flex-wrap gap-1">
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-on-surface-variant">BGPsec</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-on-surface-variant">RPKI</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-on-surface-variant">MPLS</span>
+</div>
+</div>
+<!-- Line 3 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between text-secondary font-mono-sm text-mono-sm">
+<span class="">LÍNEA 03</span>
+<span class="material-symbols-outlined text-[20px]">warning</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Amenazas Digitales</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Taxonomía sistemática de agentes maliciosos, vectores emergentes de exploit autónomo y mapeo de tácticas MITRE ATT&amp;CK.
+            </p>
+</div>
+<div class="flex flex-wrap gap-1">
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-on-surface-variant">MITRE ATT&amp;CK</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-on-surface-variant">APT Groups</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-on-surface-variant">TTPs</span>
+</div>
+</div>
+<!-- Line 4 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between text-secondary font-mono-sm text-mono-sm">
+<span class="">LÍNEA 04</span>
+<span class="material-symbols-outlined text-[20px]">search</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Análisis de Incidentes</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Patrones forenses de intrusión, telemetría de eventos de seguridad (SIEM/SOAR) e indicadores de compromiso (IoCs) normalizados.
+            </p>
+</div>
+<div class="flex flex-wrap gap-1">
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-on-surface-variant">Forensics</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-on-surface-variant">IoC Modeling</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-on-surface-variant">PCAP Analysis</span>
+</div>
+</div>
+<!-- Line 5 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between text-secondary font-mono-sm text-mono-sm">
+<span class="">LÍNEA 05</span>
+<span class="material-symbols-outlined text-[20px]">groups</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Factor Humano</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Psicología cognitiva ante señuelos de ingeniería social, hábitos de navegación y diseño de intervenciones preventivas empíricas.
+            </p>
+</div>
+<div class="flex flex-wrap gap-1">
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-on-surface-variant">Behavioral Sec</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-on-surface-variant">Phishing Bias</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-on-surface-variant">Awareness</span>
+</div>
+</div>
+<!-- Line 6 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between text-secondary font-mono-sm text-mono-sm">
+<span class="">LÍNEA 06</span>
+<span class="material-symbols-outlined text-[20px]">shield</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Mitigación Activa</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Políticas de hardening de sistemas operativos, microsegmentación de redes locales y auditorías de seguridad como código (IaC).
+            </p>
+</div>
+<div class="flex flex-wrap gap-1">
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-on-surface-variant">CIS Benchmarks</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-on-surface-variant">Segmentation</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-on-surface-variant">EDR/XDR</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. SECCIÓN DE INFRAESTRUCTURA Y SUPERFICIE DE ATAQUE (#infraestructura) -->
+<section class="w-full py-space-3xl px-gutter-desktop bg-surface-container-low" id="infraestructura">
+<div class="max-w-[1440px] mx-auto flex flex-col gap-space-xl">
+<div class="flex flex-col gap-space-xs">
+<div class="font-mono-sm text-mono-sm text-secondary uppercase tracking-widest">TOPOLOGÍA DE RED SIMULADA</div>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold uppercase tracking-tight">INFRAESTRUCTURA Y SUPERFICIE DE ATAQUE</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-3xl">
+          Seleccione o interactúe con los componentes de la topología para inspeccionar la superficie de exposición y las vulnerabilidades teóricas asociadas a cada capa de red.
+        </p>
+</div>
+<!-- Network Flow Diagram Component -->
+<div class="w-full bg-surface-container p-space-lg rounded flex flex-col gap-space-lg">
+<div class="flex items-center justify-between">
+<span class="font-mono-sm text-mono-sm text-on-surface-variant uppercase">MODELO TOPOLÓGICO EXPERIMENTAL // FLUIDO DE DATOS</span>
+<span class="font-mono-sm text-mono-sm text-secondary font-semibold">INTERFAZ ACTIVA (SELECCIÓN DINÁMICA)</span>
+</div>
+<!-- Horizontal Interactive Flow -->
+<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-space-xs text-center" id="topo-nodes-container">
+<!-- Node 1 -->
+<button class="node-btn p-space-sm rounded bg-surface-container-high hover:bg-surface-variant transition-all text-left flex flex-col gap-2 duration-300 transform hover:-translate-y-1 hover:border-secondary hover:shadow-[0_0_18px_rgba(0,255,136,0.3)] active:scale-95" onclick="inspectNode('internet')" type="button">
+<span class="font-mono-sm text-mono-sm text-secondary">01. WAN</span>
+<span class="font-headline-sm text-headline-sm text-primary font-semibold">Internet</span>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">Tráfico externo no confiable</span>
+</button>
+<!-- Node 2 -->
+<button class="node-btn p-space-sm rounded bg-surface-container-high hover:bg-surface-variant transition-all text-left flex flex-col gap-2 duration-300 transform hover:-translate-y-1 hover:border-secondary hover:shadow-[0_0_18px_rgba(0,255,136,0.3)] active:scale-95" onclick="inspectNode('router')" type="button">
+<span class="font-mono-sm text-mono-sm text-secondary">02. BORDE</span>
+<span class="font-headline-sm text-headline-sm text-primary font-semibold">Router Borde</span>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">BGP / Enrutamiento ISP</span>
+</button>
+<!-- Node 3 -->
+<button class="node-btn p-space-sm rounded bg-surface-container-high hover:bg-surface-variant transition-all text-left flex flex-col gap-2 duration-300 transform hover:-translate-y-1 hover:border-secondary hover:shadow-[0_0_18px_rgba(0,255,136,0.3)] active:scale-95" onclick="inspectNode('firewall')" type="button">
+<span class="font-mono-sm text-mono-sm text-secondary">03. INSPECCIÓN</span>
+<span class="font-headline-sm text-headline-sm text-primary font-semibold">Firewall NGFW</span>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">Deep Packet Inspection</span>
+</button>
+<!-- Node 4 -->
+<button class="node-btn p-space-sm rounded bg-surface-container-high hover:bg-surface-variant transition-all text-left flex flex-col gap-2 duration-300 transform hover:-translate-y-1 hover:border-secondary hover:shadow-[0_0_18px_rgba(0,255,136,0.3)] active:scale-95" onclick="inspectNode('switch')" type="button">
+<span class="font-mono-sm text-mono-sm text-secondary">04. CONMUTACIÓN</span>
+<span class="font-headline-sm text-headline-sm text-primary font-semibold">Core Switch</span>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">VLANs / 802.1Q</span>
+</button>
+<!-- Node 5 -->
+<button class="node-btn p-space-sm rounded bg-surface-container-high hover:bg-surface-variant transition-all text-left flex flex-col gap-2 duration-300 transform hover:-translate-y-1 hover:border-secondary hover:shadow-[0_0_18px_rgba(0,255,136,0.3)] active:scale-95" onclick="inspectNode('dmz')" type="button">
+<span class="font-mono-sm text-mono-sm text-secondary">05. SERVICIOS</span>
+<span class="font-headline-sm text-headline-sm text-primary font-semibold">DMZ / Servidores</span>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">HTTPS, DNS, APIs</span>
+</button>
+<!-- Node 6 -->
+<button class="node-btn p-space-sm rounded bg-surface-container-high hover:bg-surface-variant transition-all text-left flex flex-col gap-2 duration-300 transform hover:-translate-y-1 hover:border-secondary hover:shadow-[0_0_18px_rgba(0,255,136,0.3)] active:scale-95" onclick="inspectNode('endpoints')" type="button">
+<span class="font-mono-sm text-mono-sm text-secondary">06. CLIENTES</span>
+<span class="font-headline-sm text-headline-sm text-primary font-semibold">Terminales</span>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">Workstations / BYOD</span>
+</button>
+<!-- Node 7 -->
+<button class="node-btn p-space-sm rounded bg-surface-container-high hover:bg-surface-variant transition-all text-left flex flex-col gap-2 duration-300 transform hover:-translate-y-1 hover:border-secondary hover:shadow-[0_0_18px_rgba(0,255,136,0.3)] active:scale-95" onclick="inspectNode('users')" type="button">
+<span class="font-mono-sm text-mono-sm text-secondary">07. FACTOR HUMANO</span>
+<span class="font-headline-sm text-headline-sm text-primary font-semibold">Usuarios</span>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">Operadores finales</span>
+</button>
+</div>
+<!-- Dynamic Vulnerability Drawer Detail -->
+<div class="bg-surface-container-low p-space-md rounded flex flex-col md:flex-row items-start justify-between gap-space-md" id="inspector-display">
+<div class="flex flex-col gap-2 max-w-2xl">
+<div class="flex items-center gap-space-xs">
+<span class="font-mono-sm text-mono-sm text-secondary" id="insp-category">NODO DE INSPECCIÓN: FIREWALL NGFW</span>
+<span class="font-mono-sm text-mono-sm text-primary-container px-2 py-0.5 rounded bg-surface-container-high" id="insp-risk">NIVEL: CRÍTICO</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-primary font-semibold" id="insp-title">Configuraciones Incorrectas y Reglas Permisivas</h4>
+<p class="font-body-md text-body-md text-on-surface-variant" id="insp-desc">
+              Reglas any-any heredadas, omisión de desencriptado TLS saliente y falta de integración con listas de reputación IP permiten la persistencia de túneles de comando y control (C2).
+            </p>
+</div>
+<div class="flex flex-col gap-1 w-full md:w-auto shrink-0 bg-surface-container p-space-sm rounded">
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">RECOMENDACIÓN TÉCNICA</span>
+<span class="font-mono-md text-mono-md text-primary font-medium" id="insp-rec">Auditoría CIS Firewall v2.0 + Default-Deny</span>
+<span class="font-mono-sm text-mono-sm text-secondary" id="insp-cve">CVE Impact Factor: Elevado</span>
+</div>
+</div>
+<!-- 6 Core Attack Surface Points -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-space-sm pt-space-xs">
+<div class="p-space-sm rounded bg-surface-container-low">
+<span class="font-mono-sm text-mono-sm text-error font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">lock_open</span> SERVICIOS EXPUESTOS
+            </span>
+<p class="font-body-sm text-body-sm text-on-surface mt-1">Puertos de administración directa (SSH, RDP) expuestos a Internet sin túnel VPN.</p>
+</div>
+<div class="p-space-sm rounded bg-surface-container-low">
+<span class="font-mono-sm text-mono-sm text-error font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">key_off</span> CREDENCIALES DÉBILES
+            </span>
+<p class="font-body-sm text-body-sm text-on-surface mt-1">Ausencia de autenticación multifactor (MFA) y contraseñas compartidas entre áreas operativas.</p>
+</div>
+<div class="p-space-sm rounded bg-surface-container-low">
+<span class="font-mono-sm text-mono-sm text-error font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">update_disabled</span> SOFTWARE DESACTUALIZADO
+            </span>
+<p class="font-body-sm text-body-sm text-on-surface mt-1">Bibliotecas con CVEs activos en producción que facilitan Remote Code Execution (RCE).</p>
+</div>
+<div class="p-space-sm rounded bg-surface-container-low">
+<span class="font-mono-sm text-mono-sm text-error font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">rule</span> CONFIGURACIONES LAXAS
+            </span>
+<p class="font-body-sm text-body-sm text-on-surface mt-1">Políticas de control de acceso basadas en supuestos de red confiable (Perímetro tradicional).</p>
+</div>
+<div class="p-space-sm rounded bg-surface-container-low">
+<span class="font-mono-sm text-mono-sm text-error font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">hub</span> FALTA DE SEGMENTACIÓN
+            </span>
+<p class="font-body-sm text-body-sm text-on-surface mt-1">Redes planas donde un endpoint comprometido puede pivotear lateralmente hacia bases de datos.</p>
+</div>
+<div class="p-space-sm rounded bg-surface-container-low">
+<span class="font-mono-sm text-mono-sm text-error font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">phonelink_erase</span> DISPOSITIVOS NO GESTIONADOS
+            </span>
+<p class="font-body-sm text-body-sm text-on-surface mt-1">Aparición de Shadow IT y dispositivos IoT sin agentes de detección y respuesta (EDR).</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. SECCIÓN MAPA DE AMENAZAS (#amenazas) -->
+<section class="w-full py-space-3xl px-gutter-desktop bg-surface-container-lowest" id="amenazas">
+<div class="max-w-[1440px] mx-auto flex flex-col gap-space-2xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md pb-space-sm">
+<div>
+<div class="font-mono-sm text-mono-sm text-secondary uppercase tracking-widest mb-2">TAXONOMÍA SISTEMÁTICA Y MITRE ALIGNMENT</div>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold uppercase tracking-tight">MAPA DE AMENAZAS DIGITALES</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+          Clasificación defensiva de vectores de ataque más prevalentes, su impacto estructural en redes modernas y contramedidas recomendadas.
+        </p>
+</div>
+<!-- Threats Grid 8 cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- 1. Phishing -->
+<div class="bg-surface-container p-space-md rounded flex flex-col justify-between gap-space-md hover:bg-surface-container-high transition-colors">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-error font-semibold">RIESGO: CRÍTICO</span>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">T1566</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Phishing y Spear Phishing</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Engaño por correo electrónico, SMS o mensajería instantánea para la suplantación de identidad corporativa.</p>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded font-mono-sm text-mono-sm">
+<div class="text-on-surface-variant">VECTOR: <span class="text-on-surface">Ingeniería Social</span></div>
+<div class="text-secondary mt-1">PREVENCIÓN: <span class="text-on-surface">DMARC, DKIM, filtros heurísticos y entrenamiento.</span></div>
+</div>
+</div>
+<!-- 2. Ingeniería Social -->
+<div class="bg-surface-container p-space-md rounded flex flex-col justify-between gap-space-md hover:bg-surface-container-high transition-colors">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-primary-container font-semibold">RIESGO: ALTO</span>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">T1598</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Ingeniería Social</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Manipulación psicológica interpersonal para eludir protocolos y obtener acceso no autorizado.</p>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded font-mono-sm text-mono-sm">
+<div class="text-on-surface-variant">VECTOR: <span class="text-on-surface">Psicológico / Humano</span></div>
+<div class="text-secondary mt-1">PREVENCIÓN: <span class="text-on-surface">Protocolos de doble validación fuera de banda.</span></div>
+</div>
+</div>
+<!-- 3. Malware / Ransomware -->
+<div class="bg-surface-container p-space-md rounded flex flex-col justify-between gap-space-md hover:bg-surface-container-high transition-colors">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-error font-semibold">RIESGO: CRÍTICO</span>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">T1486</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Malware &amp; Ransomware</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Cifrado de volúmenes críticos y exfiltración extorsiva mediante ejecutables polimórficos.</p>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded font-mono-sm text-mono-sm">
+<div class="text-on-surface-variant">VECTOR: <span class="text-on-surface">Descargas / Adjuntos</span></div>
+<div class="text-secondary mt-1">PREVENCIÓN: <span class="text-on-surface">EDR avanzado, copias de seguridad inmutables 3-2-1.</span></div>
+</div>
+</div>
+<!-- 4. Robo de Credenciales -->
+<div class="bg-surface-container p-space-md rounded flex flex-col justify-between gap-space-md hover:bg-surface-container-high transition-colors">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-error font-semibold">RIESGO: CRÍTICO</span>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">T1110</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Robo de Credenciales</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Ataques de fuerza bruta, volcados de memoria LSASS y sitios espejo de captura de contraseñas.</p>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded font-mono-sm text-mono-sm">
+<div class="text-on-surface-variant">VECTOR: <span class="text-on-surface">Credential Stuffing</span></div>
+<div class="text-secondary mt-1">PREVENCIÓN: <span class="text-on-surface">Llaves FIDO2/WebAuthn sin contraseña y MFA.</span></div>
+</div>
+</div>
+<!-- 5. Ataques DDoS -->
+<div class="bg-surface-container p-space-md rounded flex flex-col justify-between gap-space-md hover:bg-surface-container-high transition-colors">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-on-surface-variant font-semibold">RIESGO: MODERADO</span>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">T1498</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Denegación de Servicio (DDoS)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Saturación de enlaces de telecomunicaciones y agotamiento de recursos en capas 4 y 7.</p>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded font-mono-sm text-mono-sm">
+<div class="text-on-surface-variant">VECTOR: <span class="text-on-surface">Botnets Volumétricas</span></div>
+<div class="text-secondary mt-1">PREVENCIÓN: <span class="text-on-surface">Scrubbing centers de upstream y rate-limiting Anycast.</span></div>
+</div>
+</div>
+<!-- 6. Vulnerabilidades de Software -->
+<div class="bg-surface-container p-space-md rounded flex flex-col justify-between gap-space-md hover:bg-surface-container-high transition-colors">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-primary-container font-semibold">RIESGO: ALTO</span>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">T1190</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Vulnerabilidades de Software</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Explotación de fallas en frameworks, servidores web y dependencias no auditadas.</p>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded font-mono-sm text-mono-sm">
+<div class="text-on-surface-variant">VECTOR: <span class="text-on-surface">Zero-days / N-days</span></div>
+<div class="text-secondary mt-1">PREVENCIÓN: <span class="text-on-surface">Gestión continua de parches y análisis SAST/DAST.</span></div>
+</div>
+</div>
+<!-- 7. Configuraciones Inseguras -->
+<div class="bg-surface-container p-space-md rounded flex flex-col justify-between gap-space-md hover:bg-surface-container-high transition-colors">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-primary-container font-semibold">RIESGO: ALTO</span>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">T1078</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Configuraciones Inseguras</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Servicios en la nube con buckets públicos, cifrado desactivado o credenciales predeterminadas.</p>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded font-mono-sm text-mono-sm">
+<div class="text-on-surface-variant">VECTOR: <span class="text-on-surface">Defaults / Permisos Laxos</span></div>
+<div class="text-secondary mt-1">PREVENCIÓN: <span class="text-on-surface">Benchmarks CIS e infraestructura como código validada.</span></div>
+</div>
+</div>
+<!-- 8. Redes Wi-Fi Vulnerables -->
+<div class="bg-surface-container p-space-md rounded flex flex-col justify-between gap-space-md hover:bg-surface-container-high transition-colors">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-on-surface-variant font-semibold">RIESGO: MODERADO</span>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">T1040</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Ataques a Redes Inalámbricas</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Puntos de acceso gemelos (Evil Twin), captura de 4-way handshakes y desautenticación.</p>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded font-mono-sm text-mono-sm">
+<div class="text-on-surface-variant">VECTOR: <span class="text-on-surface">Radiofrecuencia 802.11</span></div>
+<div class="text-secondary mt-1">PREVENCIÓN: <span class="text-on-surface">Protocolo WPA3 Enterprise, 802.1X y supresión SSID rogue.</span></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. SECCIÓN DE DATOS Y GRÁFICAS (#datos) -->
+<section class="w-full py-space-3xl px-gutter-desktop bg-surface-container-low" id="datos">
+<div class="max-w-[1440px] mx-auto flex flex-col gap-space-2xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md pb-space-sm">
+<div>
+<div class="inline-flex items-center gap-2 px-2.5 py-1 rounded bg-surface-container font-mono-sm text-mono-sm text-secondary uppercase font-semibold mb-2">
+<span class="h-2 w-2 rounded-full bg-primary-container"></span>
+            VISUALIZACIÓN CONCEPTUAL — DATOS SIMULADOS
+          </div>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold uppercase tracking-tight">DATOS E INCIDENTES TELEMÉTRICOS</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+          Visualización estadística modelada para el laboratorio. La estructura está desacoplada para admitir datasets en tiempo real o archivos estáticos JSON sin necesidad de backend.
+        </p>
+</div>
+<!-- 4 High Precision Charts Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-space-md">
+<!-- Chart 1: Distribution -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between">
+<div class="flex items-center justify-between mb-4">
+<span class="font-headline-sm text-headline-sm text-primary font-semibold">Distribución Conceptual de Amenazas</span>
+<span class="font-mono-sm text-mono-sm text-secondary">[DOUGHNUT]</span>
+</div>
+<div class="h-72 w-full flex items-center justify-center relative">
+<canvas id="threatDistributionChart" width="1120" height="576" style="display: block; box-sizing: border-box; height: 288px; width: 560px;"></canvas>
+</div>
+<div class="mt-4 pt-2 font-mono-sm text-mono-sm text-on-surface-variant flex justify-between">
+<span class="">Muestra N=1,420 incidentes simulados</span>
+<span class="text-secondary font-medium">Mayoría: Phishing (41%)</span>
+</div>
+</div>
+<!-- Chart 2: Timeline -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between">
+<div class="flex items-center justify-between mb-4">
+<span class="font-headline-sm text-headline-sm text-primary font-semibold">Evolución Trimestral de Detecciones</span>
+<span class="font-mono-sm text-mono-sm text-secondary">[LINEA TEMPORAL]</span>
+</div>
+<div class="h-72 w-full flex items-center justify-center relative">
+<canvas id="incidentTimelineChart" width="1120" height="576" style="display: block; box-sizing: border-box; height: 288px; width: 560px;"></canvas>
+</div>
+<div class="mt-4 pt-2 font-mono-sm text-mono-sm text-on-surface-variant flex justify-between">
+<span class="">Intervalo: 2024 Q1 - 2025 Q4</span>
+<span class="text-secondary font-medium">+28.4% Incremento proyectado</span>
+</div>
+</div>
+<!-- Chart 3: Initial Attack Vectors -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between">
+<div class="flex items-center justify-between mb-4">
+<span class="font-headline-sm text-headline-sm text-primary font-semibold">Vectores de Intrusión Inicial</span>
+<span class="font-mono-sm text-mono-sm text-secondary">[BARRA HORIZONTAL]</span>
+</div>
+<div class="h-72 w-full flex items-center justify-center relative">
+<canvas id="attackVectorsChart" width="1120" height="576" style="display: block; box-sizing: border-box; height: 288px; width: 560px;"></canvas>
+</div>
+<div class="mt-4 pt-2 font-mono-sm text-mono-sm text-on-surface-variant flex justify-between">
+<span class="">Técnicas de acceso inicial MITRE</span>
+<span class="text-secondary font-medium">Credenciales en cabeza</span>
+</div>
+</div>
+<!-- Chart 4: Potential Impact -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between">
+<div class="flex items-center justify-between mb-4">
+<span class="font-headline-sm text-headline-sm text-primary font-semibold">Impacto Operativo por Activo</span>
+<span class="font-mono-sm text-mono-sm text-secondary">[RADAR MULTIVARIABLE]</span>
+</div>
+<div class="h-72 w-full flex items-center justify-center relative">
+<canvas id="impactRadarChart" width="1120" height="576" style="display: block; box-sizing: border-box; height: 288px; width: 560px;"></canvas>
+</div>
+<div class="mt-4 pt-2 font-mono-sm text-mono-sm text-on-surface-variant flex justify-between">
+<span class="">Severidad CVSS ponderada (0-10)</span>
+<span class="text-secondary font-medium">Bases de datos: 9.2 máx</span>
+</div>
+</div>
+</div>
+<!-- Technical Callout for Data Extensibility -->
+<div class="bg-surface-container p-space-md rounded flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-2xl">integration_instructions</span>
+<div>
+<span class="font-mono-md text-mono-md text-primary font-semibold block">Desacople de Datos para GitHub Pages</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Para vincular feeds reales, reemplace el script en línea cargando un objeto global `data.json` o consumiendo endpoints GitHub Actions estáticos.</p>
+</div>
+</div>
+<div class="font-mono-sm text-mono-sm px-3 py-1.5 rounded bg-surface-container-high text-secondary whitespace-nowrap">
+          STATUS: READY FOR STATIC CI/CD
+        </div>
+</div>
+</div>
+</section>
+<!-- 8. METODOLOGÍA & TIMELINE (#metodologia) -->
+<section class="w-full py-space-3xl px-gutter-desktop bg-surface-container-lowest" id="metodologia">
+<div class="max-w-[1440px] mx-auto flex flex-col gap-space-2xl">
+<div class="flex flex-col gap-space-xs">
+<span class="font-mono-sm text-mono-sm text-secondary uppercase tracking-widest">RIGOR CIENTÍFICO Y PROCESO</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold uppercase tracking-tight">METODOLOGÍA INVESTIGATIVA Y CRONOGRAMA</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-3xl">
+          Estructura metodológica secuencial en 7 fases para el modelado, verificación y difusión del marco de prevención en ciberseguridad.
+        </p>
+</div>
+<!-- Chronological Roadmap Timeline (7 Phases) -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Fase 01 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-mono-sm text-mono-sm text-secondary font-bold">FASE 01</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-primary">COMPLETADO</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-semibold">Identificación de Problema</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Definición de objetivos, alcance empírico y delimitación de la superficie de amenazas digitales en redes convergentes.</p>
+</div>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant pt-4">T1 2025 // Semanas 1-4</span>
+</div>
+<!-- Fase 02 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-mono-sm text-mono-sm text-secondary font-bold">FASE 02</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-primary">COMPLETADO</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-semibold">Revisión Documental</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Análisis bibliográfico de estándares NIST SP 800-53, CIS Controls v8 y documentación de RFCs de telecomunicaciones.</p>
+</div>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant pt-4">T2 2025 // Semanas 5-10</span>
+</div>
+<!-- Fase 03 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-mono-sm text-mono-sm text-secondary font-bold">FASE 03</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high font-mono-sm text-mono-sm text-primary-container font-semibold">EN CURSO</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-semibold">Recopilación de Datos</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Agregación de telemetría sintética, captura controlada de paquetes PCAP y simulación de incidentes en entornos aislados.</p>
+</div>
+<span class="font-mono-sm text-mono-sm text-secondary pt-4">T3 2025 // Semanas 11-18</span>
+</div>
+<!-- Fase 04 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-mono-sm text-mono-sm text-secondary font-bold">FASE 04</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-on-surface-variant">PLANIFICADO</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-semibold">Detección de Patrones</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Correlación estadística de indicadores de compromiso (IoCs) y modelado de cadenas de ataque (Cyber Kill Chain).</p>
+</div>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant pt-4">T4 2025 // Semanas 19-24</span>
+</div>
+<!-- Fase 05 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-mono-sm text-mono-sm text-secondary font-bold">FASE 05</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-on-surface-variant">PLANIFICADO</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-semibold">Estrategias de Mitigación</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Diseño y formalización de controles de hardening, arquitecturas de microsegmentación y defensas en profundidad.</p>
+</div>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant pt-4">T1 2026 // Semanas 25-30</span>
+</div>
+<!-- Fase 06 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-mono-sm text-mono-sm text-secondary font-bold">FASE 06</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-on-surface-variant">PLANIFICADO</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-semibold">Propuesta Educativa</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Creación de módulos interactivos de concientización, guías prácticas de seguridad digital y verificación comunitaria.</p>
+</div>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant pt-4">T2 2026 // Semanas 31-36</span>
+</div>
+<!-- Fase 07 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between col-span-1 md:col-span-2">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-mono-sm text-mono-sm text-secondary font-bold">FASE 07</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-on-surface-variant">PLANIFICADO</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-semibold">Evaluación de Impacto y Publicación</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Publicación de hallazgos en repositorio público de acceso abierto, difusión para la comunidad académica y evaluación continua de la efectividad de las medidas.</p>
+</div>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant pt-4">T3 2026 // Semanas 37-42</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 9. MATRIZ DE MITIGACIÓN (#mitigacion) -->
+<section class="w-full py-space-3xl px-gutter-desktop bg-surface-container-low" id="mitigacion">
+<div class="max-w-[1440px] mx-auto flex flex-col gap-space-2xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md pb-space-sm">
+<div>
+<div class="font-mono-sm text-mono-sm text-secondary uppercase tracking-widest mb-2">CONTROL TÉCNICO &amp; CONTRAMEDIDAS</div>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold uppercase tracking-tight">DE LA VULNERABILIDAD A LA MITIGACIÓN</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+          Matriz de correspondencia directa entre la causa de origen del riesgo y las medidas de remediación estructuradas.
+        </p>
+</div>
+<!-- Mitigation Interactive Cards / Matrix -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md">
+<!-- Matrix 1 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between gap-space-md hover:bg-surface-container-high transition-colors">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-mono-sm text-mono-sm text-error font-bold">VULNERABILIDAD</span>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">lock_reset</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Credenciales Comprometidas</h3>
+<div class="text-on-surface-variant font-body-sm text-body-sm mt-2">
+<span class="text-on-surface font-semibold block mb-1">Causa Raíz:</span>
+              Contraseñas débiles, reusadas entre servicios externos y filtradas por campañas de credential stuffing.
             </div>
-        </section>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded">
+<span class="font-mono-sm text-mono-sm text-secondary font-bold block mb-1">MITIGACIÓN EFECTIVA:</span>
+<p class="font-body-sm text-body-sm text-on-surface">Implementación universal de MFA basado en llaves de seguridad físicas (FIDO2 / WebAuthn) y políticas estrictas de gestor de contraseñas empresarial.</p>
+</div>
+</div>
+<!-- Matrix 2 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between gap-space-md hover:bg-surface-container-high transition-colors">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-mono-sm text-mono-sm text-error font-bold">VULNERABILIDAD</span>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">pest_control</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Software Desactualizado</h3>
+<div class="text-on-surface-variant font-body-sm text-body-sm mt-2">
+<span class="text-on-surface font-semibold block mb-1">Causa Raíz:</span>
+              Ciclos de parches tardíos, servicios huérfanos sin soporte y dependencias de terceros sin auditoría (SBOM).
+            </div>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded">
+<span class="font-mono-sm text-mono-sm text-secondary font-bold block mb-1">MITIGACIÓN EFECTIVA:</span>
+<p class="font-body-sm text-body-sm text-on-surface">Pipeline automatizado de gestión continua de vulnerabilidades, análisis estático (SAST) y escaneo sistemático de dependencias en repositorios.</p>
+</div>
+</div>
+<!-- Matrix 3 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between gap-space-md hover:bg-surface-container-high transition-colors">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-mono-sm text-mono-sm text-error font-bold">VULNERABILIDAD</span>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">router</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Red Perimetral Expuesta</h3>
+<div class="text-on-surface-variant font-body-sm text-body-sm mt-2">
+<span class="text-on-surface font-semibold block mb-1">Causa Raíz:</span>
+              Puertos de administración expuestos a la WAN pública y ausencia de segmentación entre subredes de servidores.
+            </div>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded">
+<span class="font-mono-sm text-mono-sm text-secondary font-bold block mb-1">MITIGACIÓN EFECTIVA:</span>
+<p class="font-body-sm text-body-sm text-on-surface">Microsegmentación con firewalls de capa 7 (NGFW), políticas de perímetro Zero-Trust (ZTNA) y acceso exclusivo mediante túneles WireGuard.</p>
+</div>
+</div>
+<!-- Matrix 4 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between gap-space-md hover:bg-surface-container-high transition-colors">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-mono-sm text-mono-sm text-error font-bold">VULNERABILIDAD</span>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">psychology</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Ingeniería Social</h3>
+<div class="text-on-surface-variant font-body-sm text-body-sm mt-2">
+<span class="text-on-surface font-semibold block mb-1">Causa Raíz:</span>
+              Falta de capacitación técnica, sesgos de urgencia y desconfianza en canales formales de reporte de incidentes.
+            </div>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded">
+<span class="font-mono-sm text-mono-sm text-secondary font-bold block mb-1">MITIGACIÓN EFECTIVA:</span>
+<p class="font-body-sm text-body-sm text-on-surface">Talleres de alfabetización digital interactiva, campañas de simulación controlada sin sanción punitiva y canales directos de verificación.</p>
+</div>
+</div>
+<!-- Matrix 5 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between gap-space-md hover:bg-surface-container-high transition-colors">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-mono-sm text-mono-sm text-error font-bold">VULNERABILIDAD</span>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">devices</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Dispositivos Endpoint Inseguros</h3>
+<div class="text-on-surface-variant font-body-sm text-body-sm mt-2">
+<span class="text-on-surface font-semibold block mb-1">Causa Raíz:</span>
+              Sistemas operativos sin políticas de hardening, ejecución de privilegios administrativos por defecto y Shadow IT.
+            </div>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded">
+<span class="font-mono-sm text-mono-sm text-secondary font-bold block mb-1">MITIGACIÓN EFECTIVA:</span>
+<p class="font-body-sm text-body-sm text-on-surface">Aplicación de guías CIS Benchmarks Level 1, gestión centralizada con MDM/EDR y principio de privilegios mínimos (PoLP).</p>
+</div>
+</div>
+<!-- Matrix 6 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between gap-space-md hover:bg-surface-container-high transition-colors">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-mono-sm text-mono-sm text-error font-bold">VULNERABILIDAD</span>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">sync_problem</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Pérdida de Datos por Ransomware</h3>
+<div class="text-on-surface-variant font-body-sm text-body-sm mt-2">
+<span class="text-on-surface font-semibold block mb-1">Causa Raíz:</span>
+              Copias de seguridad conectadas permanentemente a la misma red local sin almacenamiento aislado fuera de línea.
+            </div>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded">
+<span class="font-mono-sm text-mono-sm text-secondary font-bold block mb-1">MITIGACIÓN EFECTIVA:</span>
+<p class="font-body-sm text-body-sm text-on-surface">Arquitectura de respaldos 3-2-1-1-0 con copias inmutables (WORM), aislamiento físico (air-gapped) y pruebas periódicas de restauración.</p>
+</div>
+</div>
+</div>
+</div>
+</section><section class="w-full py-space-3xl px-gutter-desktop bg-surface-container-lowest" id="simulador">
+  <div class="max-w-[1440px] mx-auto flex flex-col gap-space-2xl">
+    <!-- Header -->
+    <div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md pb-space-sm">
+      <div>
+        <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded bg-surface-container font-mono-sm text-mono-sm text-secondary uppercase font-semibold mb-2">
+          <span class="material-symbols-outlined text-[16px] text-primary-container">science</span>
+          LABORATORIO INTERACTIVO CLIENT-SIDE // ZERO-BACKEND
+        </div>
+        <h2 class="font-headline-xl text-headline-xl text-primary font-bold uppercase tracking-tight">SIMULADOR DE INSPECCIÓN Y ANÁLISIS DEFENSIVO</h2>
+      </div>
+      <p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+        Entorno práctico de auditoría sin dependencias externas ni rastreo de red. Examine cabeceras forenses reales, evalúe vectores de ataque y configure directivas de mitigación en tiempo de ejecución.
+      </p>
     </div>
 
-    <footer>
-        <p>Desarrollado para el portafolio de Implementación de Redes y Servicios de Telecomunicaciones.</p>
-    </footer>
+    <!-- Tab Switcher Navigation -->
+    <div class="flex items-center gap-2 border-b border-outline-variant/40 pb-2">
+      <button id="tab-btn-email" onclick="switchSimTab('email')" class="px-space-md py-2 rounded-t font-mono-md text-mono-md font-semibold text-primary bg-surface-container-high transition-colors flex items-center gap-2 transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(0,255,136,0.25)] active:scale-95 cursor-pointer" type="button">
+        <span class="material-symbols-outlined text-[18px] text-secondary">mail</span>
+        <span class="">1. Inspección de Email / Phishing</span>
+      </button>
+      <button id="tab-btn-headers" onclick="switchSimTab('headers')" class="px-space-md py-2 rounded-t font-mono-md text-mono-md font-semibold text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2 transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(0,255,136,0.25)] active:scale-95 cursor-pointer" type="button">
+        <span class="material-symbols-outlined text-[18px]">http</span>
+        <span class="">2. Cabeceras HTTP &amp; TLS</span>
+      </button>
+    </div>
 
-</body>
-</html>
+    <!-- TAB 1: Email / Phishing Workbench -->
+    <div id="sim-tab-email" class="flex flex-col gap-space-lg">
+      <!-- Case Selector Bar -->
+      <div class="flex flex-wrap items-center justify-between gap-space-sm bg-surface-container p-space-sm rounded">
+        <div class="flex flex-wrap items-center gap-2">
+          <span class="font-mono-sm text-mono-sm text-on-surface-variant px-2">SELECCIONAR CASO DE PRUEBA:</span>
+          <button onclick="loadEmailCase('caseA')" class="email-case-btn px-3 py-1.5 rounded font-mono-sm text-mono-sm bg-surface-container-high text-primary hover:bg-secondary-container hover:text-on-secondary transition-colors transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(0,255,136,0.25)] active:scale-95 cursor-pointer" type="button">
+            Caso A: Suplantación Bancaria (DKIM/SPF Fail)
+          </button>
+          <button onclick="loadEmailCase('caseB')" class="email-case-btn px-3 py-1.5 rounded font-mono-sm text-mono-sm bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high hover:text-primary transition-colors transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(0,255,136,0.25)] active:scale-95 cursor-pointer" type="button">
+            Caso B: CEO Fraud / Whaling Urgent
+          </button>
+          <button onclick="loadEmailCase('caseC')" class="email-case-btn px-3 py-1.5 rounded font-mono-sm text-mono-sm bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high hover:text-primary transition-colors transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(0,255,136,0.25)] active:scale-95 cursor-pointer" type="button">
+            Caso C: Notificación Legítima Segura
+          </button>
+        </div>
+        <button onclick="loadEmailCase('caseA')" class="px-3 py-1 font-mono-sm text-mono-sm text-outline hover:text-primary transition-colors flex items-center gap-1" type="button">
+          <span class="material-symbols-outlined text-[16px]">restart_alt</span> Reiniciar Análisis
+        </button>
+      </div>
+
+      <!-- Workbench 2 Columns -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-space-md">
+        <!-- Left: Raw Headers Console (7 cols) -->
+        <div class="lg:col-span-7 bg-surface-container-lowest p-space-md rounded flex flex-col gap-space-xs border border-outline-variant/30">
+          <div class="flex items-center justify-between border-b border-outline-variant/20 pb-2">
+            <div class="flex items-center gap-2">
+              <span class="h-2.5 w-2.5 rounded-full bg-error"></span>
+              <span class="h-2.5 w-2.5 rounded-full bg-secondary"></span>
+              <span class="h-2.5 w-2.5 rounded-full bg-primary-container"></span>
+              <span class="font-mono-sm text-mono-sm text-on-surface-variant ml-2">CABECERAS MIME (RFC 5322)</span>
+            </div>
+            <span class="font-mono-sm text-mono-sm text-secondary font-bold">STATUS: PARSED RAW</span>
+          </div>
+          <div class="overflow-x-auto max-h-[440px] pt-2">
+            <pre id="email-raw-headers" class="font-mono-sm text-mono-sm text-on-surface leading-relaxed whitespace-pre">Delivered-To: victim-user@enterprise.local
+Received: by 10.14.23.11 with SMTP id a11csp;
+    Wed, 14 May 2025 08:21:04 -0700
+Authentication-Results: mx.enterprise.local;
+    spf=fail (sender IP is 198.51.100.42) smtp.mailfrom=bounce-notice@suspicious-bank-cdn.xyz;
+    dkim=fail (bad sig) header.i=@secure-banco-alerta.com;
+    dmarc=fail (p=quarantine dis=none) header.from=banco-seguro.com
+From: "Banco Seguridad Alerta" &lt;soporte@banco-seguro.com&gt;
+Reply-To: &lt;urgente@phish-recaudacion.top&gt;
+To: victim-user@enterprise.local
+Subject: [URGENTE] Bloqueo inminente de cuenta corporativa en 24h
+Date: Wed, 14 May 2025 15:20:58 +0000
+Message-ID: &lt;20250514152058.9812A@attacker-relay.ru&gt;
+X-Mailer: PHPMailer 6.1.4 (Custom Exploit Script)
+Content-Type: text/html; charset=UTF-8</pre>
+          </div>
+        </div>
+
+        <!-- Right: Forensic Analysis Inspector (5 cols) -->
+        <div class="lg:col-span-5 flex flex-col gap-space-sm">
+          <!-- Score & Classification Card -->
+          <div id="email-score-card" class="bg-surface-container p-space-md rounded flex flex-col gap-2">
+            <div class="flex items-center justify-between">
+              <span class="font-mono-sm text-mono-sm text-on-surface-variant">VEREDICTO FORENSE</span>
+              <span id="email-score-badge" class="font-mono-sm text-mono-sm px-2 py-0.5 rounded bg-surface-container-high font-bold text-error">94 / 100 RIESGO CRÍTICO</span>
+            </div>
+            <h4 id="email-case-title" class="font-headline-md text-headline-md text-primary font-semibold">Suplantación Bancaria (Phishing Activo)</h4>
+            <p id="email-case-desc" class="font-body-sm text-body-sm text-on-surface-variant">El mensaje utiliza una dirección visible 'From' de una entidad financiera reconocida pero proviene de un relay sin autorización SPF y con firma criptográfica DKIM corrupta.</p>
+          </div>
+
+          <!-- Interactive Flags Container -->
+          <div class="bg-surface-container p-space-md rounded flex flex-col gap-space-xs">
+            <span class="font-mono-sm text-mono-sm text-secondary uppercase font-semibold">INDICADORES DETECTADOS (CLIC PARA INSPECCIONAR):</span>
+            <div id="email-flags-container" class="flex flex-wrap gap-2 pt-1"><button type="button" class="px-2.5 py-1 rounded font-mono-sm text-mono-sm bg-surface-container-high hover:bg-secondary hover:text-on-secondary transition-all text-primary flex items-center gap-1"><span class="h-1.5 w-1.5 rounded-full bg-error"></span><span class="">SPF FAIL</span></button><button type="button" class="px-2.5 py-1 rounded font-mono-sm text-mono-sm bg-surface-container-high hover:bg-secondary hover:text-on-secondary transition-all text-primary flex items-center gap-1"><span class="h-1.5 w-1.5 rounded-full bg-error"></span><span class="">DKIM SIGNATURE FAIL</span></button><button type="button" class="px-2.5 py-1 rounded font-mono-sm text-mono-sm bg-surface-container-high hover:bg-secondary hover:text-on-secondary transition-all text-primary flex items-center gap-1"><span class="h-1.5 w-1.5 rounded-full bg-error"></span><span class="">REPLY-TO MISMATCH</span></button><button type="button" class="px-2.5 py-1 rounded font-mono-sm text-mono-sm bg-surface-container-high hover:bg-secondary hover:text-on-secondary transition-all text-primary flex items-center gap-1"><span class="h-1.5 w-1.5 rounded-full bg-secondary"></span><span class="">COERCITIVE URGENCY</span></button></div>
+          </div>
+
+          <!-- Dynamic Flag Detail Box -->
+          <div id="email-flag-detail" class="bg-surface-container-high p-space-md rounded flex flex-col gap-2 border-l-2 border-secondary">
+            <div class="flex items-center justify-between">
+              <span id="flag-detail-name" class="font-headline-sm text-headline-sm text-primary font-semibold">SPF FAIL</span>
+              <span id="flag-detail-risk" class="font-mono-sm text-mono-sm font-bold text-error">RIESGO: ALTO</span>
+            </div>
+            <p id="flag-detail-desc" class="font-body-sm text-body-sm text-on-surface">La IP 198.51.100.42 no está autorizada en los registros TXT del DNS oficial.</p>
+            <div class="mt-2 pt-2 border-t border-outline-variant/30">
+              <span class="font-mono-sm text-mono-sm text-on-surface-variant block mb-0.5">ACCIÓN DEFENSIVA:</span>
+              <span id="flag-detail-action" class="font-mono-sm text-mono-sm text-primary font-medium">Rechazar SMTP en el Gateway con directiva spf=fail -all.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 2: HTTP / TLS Headers Workbench (Hidden initially) -->
+    <div id="sim-tab-headers" class="hidden flex-col gap-space-lg">
+      <!-- Scenario Selector Bar -->
+      <div class="flex flex-wrap items-center justify-between gap-space-sm bg-surface-container p-space-sm rounded">
+        <div class="flex flex-wrap items-center gap-2">
+          <span class="font-mono-sm text-mono-sm text-on-surface-variant px-2">ESCENARIO DE SERVIDOR:</span>
+          <button onclick="loadHttpCase('httpUnprotected')" class="http-case-btn px-3 py-1.5 rounded font-mono-sm text-mono-sm bg-surface-container-high text-primary hover:bg-secondary-container hover:text-on-secondary transition-colors transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(0,255,136,0.25)] active:scale-95 cursor-pointer" type="button">
+            Servidor Desprotegido (Missing Security Headers)
+          </button>
+          <button onclick="loadHttpCase('httpHardened')" class="http-case-btn px-3 py-1.5 rounded font-mono-sm text-mono-sm bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high hover:text-primary transition-colors transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(0,255,136,0.25)] active:scale-95 cursor-pointer" type="button">
+            Configuración Hardened (NIST / OWASP Standard)
+          </button>
+          <button onclick="loadHttpCase('httpLegacy')" class="http-case-btn px-3 py-1.5 rounded font-mono-sm text-mono-sm bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high hover:text-primary transition-colors transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(0,255,136,0.25)] active:scale-95 cursor-pointer" type="button">
+            Degradación Criptográfica (TLS 1.0/1.1 &amp; Ciphers Débiles)
+          </button>
+        </div>
+        <button onclick="loadHttpCase('httpUnprotected')" class="px-3 py-1 font-mono-sm text-mono-sm text-outline hover:text-primary transition-colors flex items-center gap-1" type="button">
+          <span class="material-symbols-outlined text-[16px]">restart_alt</span> Reiniciar Escenario
+        </button>
+      </div>
+
+      <!-- Workbench 2 Columns -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-space-md">
+        <!-- Left: Headers Audit List (7 cols) -->
+        <div class="lg:col-span-7 bg-surface-container p-space-md rounded flex flex-col gap-space-sm">
+          <div class="flex items-center justify-between border-b border-outline-variant/30 pb-2">
+            <span class="font-mono-sm text-mono-sm text-primary font-semibold">CABECERAS DE RESPUESTA HTTP/2 DETECTADAS</span>
+            <span class="font-mono-sm text-mono-sm text-secondary">INSPECCIÓN POR DIRECTIVA</span>
+          </div>
+          <div id="http-headers-list" class="flex flex-col gap-2 max-h-[460px] overflow-y-auto pr-1"><button type="button" class="w-full text-left p-space-sm rounded bg-surface-container-low hover:bg-surface-container-high transition-colors flex items-center justify-between gap-space-xs">
+        <div class="flex flex-col gap-0.5 max-w-[70%]">
+          <span class="font-mono-sm text-mono-sm text-primary font-semibold">Strict-Transport-Security (HSTS)</span>
+          <span class="font-mono-sm text-mono-sm text-on-surface-variant truncate">(Cabecera ausente)</span>
+        </div>
+        <span class="font-mono-sm text-mono-sm px-2 py-0.5 rounded bg-error/20 text-error font-bold shrink-0">MISSING</span>
+      </button><button type="button" class="w-full text-left p-space-sm rounded bg-surface-container-low hover:bg-surface-container-high transition-colors flex items-center justify-between gap-space-xs">
+        <div class="flex flex-col gap-0.5 max-w-[70%]">
+          <span class="font-mono-sm text-mono-sm text-primary font-semibold">Content-Security-Policy (CSP)</span>
+          <span class="font-mono-sm text-mono-sm text-on-surface-variant truncate">(Cabecera ausente)</span>
+        </div>
+        <span class="font-mono-sm text-mono-sm px-2 py-0.5 rounded bg-error/20 text-error font-bold shrink-0">MISSING</span>
+      </button><button type="button" class="w-full text-left p-space-sm rounded bg-surface-container-low hover:bg-surface-container-high transition-colors flex items-center justify-between gap-space-xs">
+        <div class="flex flex-col gap-0.5 max-w-[70%]">
+          <span class="font-mono-sm text-mono-sm text-primary font-semibold">X-Frame-Options</span>
+          <span class="font-mono-sm text-mono-sm text-on-surface-variant truncate">(Cabecera ausente)</span>
+        </div>
+        <span class="font-mono-sm text-mono-sm px-2 py-0.5 rounded bg-error/20 text-error font-bold shrink-0">MISSING</span>
+      </button><button type="button" class="w-full text-left p-space-sm rounded bg-surface-container-low hover:bg-surface-container-high transition-colors flex items-center justify-between gap-space-xs">
+        <div class="flex flex-col gap-0.5 max-w-[70%]">
+          <span class="font-mono-sm text-mono-sm text-primary font-semibold">Server</span>
+          <span class="font-mono-sm text-mono-sm text-on-surface-variant truncate">Apache/2.4.29 (Ubuntu) OpenSSL/1.1.1</span>
+        </div>
+        <span class="font-mono-sm text-mono-sm px-2 py-0.5 rounded bg-primary-container/20 text-primary-container font-bold shrink-0">FINGERPRINT EXPUESTO</span>
+      </button><button type="button" class="w-full text-left p-space-sm rounded bg-surface-container-low hover:bg-surface-container-high transition-colors flex items-center justify-between gap-space-xs">
+        <div class="flex flex-col gap-0.5 max-w-[70%]">
+          <span class="font-mono-sm text-mono-sm text-primary font-semibold">X-Content-Type-Options</span>
+          <span class="font-mono-sm text-mono-sm text-on-surface-variant truncate">(Cabecera ausente)</span>
+        </div>
+        <span class="font-mono-sm text-mono-sm px-2 py-0.5 rounded bg-error/20 text-error font-bold shrink-0">MISSING</span>
+      </button></div>
+        </div>
+
+        <!-- Right: Diagnostic Box and Code Generator (5 cols) -->
+        <div class="lg:col-span-5 flex flex-col gap-space-sm">
+          <!-- Posture Profile Card -->
+          <div id="http-profile-card" class="bg-surface-container p-space-md rounded flex flex-col gap-2">
+            <div class="flex items-center justify-between">
+              <span class="font-mono-sm text-mono-sm text-on-surface-variant">POSTURA DE SEGURIDAD</span>
+              <span id="http-grade-badge" class="font-mono-md text-mono-md px-3 py-1 rounded bg-surface-container-high font-bold text-error">CALIFICACIÓN: F (MUY VULNERABLE)</span>
+            </div>
+            <h4 id="http-profile-title" class="font-headline-md text-headline-md text-primary font-semibold">Servidor Expuesto sin Directivas Defensivas</h4>
+            <p id="http-profile-desc" class="font-body-sm text-body-sm text-on-surface-variant">El servidor web transmite cabeceras que revelan versiones exactas de software y carece de defensas perimetrales básicas como CSP o HSTS.</p>
+          </div>
+
+          <!-- Directives Exploit / Hardening Guide -->
+          <div class="bg-surface-container-high p-space-md rounded flex flex-col gap-2 border-l-2 border-secondary">
+            <div class="flex items-center justify-between">
+              <span id="selected-header-name" class="font-headline-sm text-headline-sm text-primary font-semibold">Strict-Transport-Security (HSTS)</span>
+              <span id="selected-header-status" class="font-mono-sm text-mono-sm font-bold text-error">ESTADO: MISSING</span>
+            </div>
+            <div class="text-body-sm text-body-sm text-on-surface">
+              <span class="font-mono-sm text-mono-sm text-on-surface-variant block mb-1">PELIGRO POTENCIAL:</span>
+              <p id="selected-header-danger-desc" class="">Los usuarios pueden ser degradados a conexiones HTTP en texto claro mediante ataques SSL Strip / MitM.</p>
+            </div>
+            <div class="mt-2 pt-2 border-t border-outline-variant/30 flex flex-col gap-1">
+              <span class="font-mono-sm text-mono-sm text-secondary font-bold">CONFIGURACIÓN SEGURA RECOMENDADA:</span>
+              <pre id="selected-header-code" class="font-mono-sm text-mono-sm bg-surface-container-lowest p-2 rounded text-primary overflow-x-auto whitespace-pre">Strict-Transport-Security: max-age=63072000; includeSubDomains; preload</pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 10. SECCIÓN EDUCACIÓN & BUENAS PRÁCTICAS (#educacion) -->
+<section class="w-full py-space-3xl px-gutter-desktop bg-surface-container-lowest" id="educacion">
+<div class="max-w-[1440px] mx-auto flex flex-col gap-space-2xl">
+<!-- Title & Concept Banner -->
+<div class="flex flex-col gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<span class="font-mono-sm text-mono-sm text-secondary uppercase tracking-widest">CULTURA DIGITAL PREVENTIVA</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold uppercase tracking-tight">LA TECNOLOGÍA NO ES SUFICIENTE</h2>
+<p class="font-headline-md text-headline-md text-secondary-fixed">La primera línea de defensa también es el usuario.</p>
+</div>
+<!-- Banner conceptual -->
+<div class="w-full bg-surface-container p-space-md rounded flex flex-col sm:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-3xl">lightbulb</span>
+<span class="font-mono-md text-mono-md text-primary font-semibold uppercase tracking-wider">
+              USUARIO INFORMADO → MENOR EXPOSICIÓN → MAYOR RESILIENCIA
+            </span>
+</div>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">LISTA DE VERIFICACIÓN PERSONAL INTERACTIVA</span>
+</div>
+</div>
+<!-- 9 Interactive Recommendation Cards with Checklist Toggles -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md" id="checklist-grid">
+<!-- Item 1 -->
+<div class="bg-surface-container p-space-md rounded flex items-start gap-space-sm hover:bg-surface-container-high transition-colors transition-all duration-300 hover:border-secondary/40 hover:-translate-y-0.5 hover:shadow-[0_4px_20px_rgba(0,0,0,0.5)] cursor-pointer">
+<input class="mt-1 h-5 w-5 rounded bg-surface-container-low accent-secondary-container cursor-pointer" id="check-1" onchange="updateCheckCounter()" type="checkbox">
+<label class="cursor-pointer flex flex-col gap-1" for="check-1">
+<span class="font-headline-sm text-headline-sm text-primary font-medium">Verificación de Remitente</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Inspeccionar el dominio del correo y no basarse únicamente en el nombre visible del remitente antes de responder.</span>
+</label>
+</div>
+<!-- Item 2 -->
+<div class="bg-surface-container p-space-md rounded flex items-start gap-space-sm hover:bg-surface-container-high transition-colors transition-all duration-300 hover:border-secondary/40 hover:-translate-y-0.5 hover:shadow-[0_4px_20px_rgba(0,0,0,0.5)] cursor-pointer">
+<input class="mt-1 h-5 w-5 rounded bg-surface-container-low accent-secondary-container cursor-pointer" id="check-2" onchange="updateCheckCounter()" type="checkbox">
+<label class="cursor-pointer flex flex-col gap-1" for="check-2">
+<span class="font-headline-sm text-headline-sm text-primary font-medium">MFA en Todas las Cuentas</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Activar doble factor de autenticación basado en aplicaciones (TOTP) o llaves físicas FIDO2, evitando SMS.</span>
+</label>
+</div>
+<!-- Item 3 -->
+<div class="bg-surface-container p-space-md rounded flex items-start gap-space-sm hover:bg-surface-container-high transition-colors transition-all duration-300 hover:border-secondary/40 hover:-translate-y-0.5 hover:shadow-[0_4px_20px_rgba(0,0,0,0.5)] cursor-pointer">
+<input class="mt-1 h-5 w-5 rounded bg-surface-container-low accent-secondary-container cursor-pointer" id="check-3" onchange="updateCheckCounter()" type="checkbox">
+<label class="cursor-pointer flex flex-col gap-1" for="check-3">
+<span class="font-headline-sm text-headline-sm text-primary font-medium">Actualizaciones Inmediatas</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Instalar parches de seguridad del sistema operativo y aplicaciones tan pronto estén disponibles para cerrar brechas conocidas.</span>
+</label>
+</div>
+<!-- Item 4 -->
+<div class="bg-surface-container p-space-md rounded flex items-start gap-space-sm hover:bg-surface-container-high transition-colors transition-all duration-300 hover:border-secondary/40 hover:-translate-y-0.5 hover:shadow-[0_4px_20px_rgba(0,0,0,0.5)] cursor-pointer">
+<input class="mt-1 h-5 w-5 rounded bg-surface-container-low accent-secondary-container cursor-pointer" id="check-4" onchange="updateCheckCounter()" type="checkbox">
+<label class="cursor-pointer flex flex-col gap-1" for="check-4">
+<span class="font-headline-sm text-headline-sm text-primary font-medium">Gestor de Contraseñas</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Emplear un administrador de contraseñas de código abierto o auditado para generar claves únicas de +16 caracteres.</span>
+</label>
+</div>
+<!-- Item 5 -->
+<div class="bg-surface-container p-space-md rounded flex items-start gap-space-sm hover:bg-surface-container-high transition-colors transition-all duration-300 hover:border-secondary/40 hover:-translate-y-0.5 hover:shadow-[0_4px_20px_rgba(0,0,0,0.5)] cursor-pointer">
+<input class="mt-1 h-5 w-5 rounded bg-surface-container-low accent-secondary-container cursor-pointer" id="check-5" onchange="updateCheckCounter()" type="checkbox">
+<label class="cursor-pointer flex flex-col gap-1" for="check-5">
+<span class="font-headline-sm text-headline-sm text-primary font-medium">Validación de Enlaces (URLs)</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Pasar el cursor sobre los enlaces o usar analizadores de reputación antes de interactuar con URLs sospechosas.</span>
+</label>
+</div>
+<!-- Item 6 -->
+<div class="bg-surface-container p-space-md rounded flex items-start gap-space-sm hover:bg-surface-container-high transition-colors transition-all duration-300 hover:border-secondary/40 hover:-translate-y-0.5 hover:shadow-[0_4px_20px_rgba(0,0,0,0.5)] cursor-pointer">
+<input class="mt-1 h-5 w-5 rounded bg-surface-container-low accent-secondary-container cursor-pointer" id="check-6" onchange="updateCheckCounter()" type="checkbox">
+<label class="cursor-pointer flex flex-col gap-1" for="check-6">
+<span class="font-headline-sm text-headline-sm text-primary font-medium">Cautela con Redes Wi-Fi Públicas</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Evitar transacciones bancarias o inicio de sesión en redes abiertas sin un túnel VPN cifrado de punto a punto.</span>
+</label>
+</div>
+<!-- Item 7 -->
+<div class="bg-surface-container p-space-md rounded flex items-start gap-space-sm hover:bg-surface-container-high transition-colors transition-all duration-300 hover:border-secondary/40 hover:-translate-y-0.5 hover:shadow-[0_4px_20px_rgba(0,0,0,0.5)] cursor-pointer">
+<input class="mt-1 h-5 w-5 rounded bg-surface-container-low accent-secondary-container cursor-pointer" id="check-7" onchange="updateCheckCounter()" type="checkbox">
+<label class="cursor-pointer flex flex-col gap-1" for="check-7">
+<span class="font-headline-sm text-headline-sm text-primary font-medium">Copias de Respaldo Desconectadas</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Mantener una copia offline periódica de los archivos más críticos en discos duros externos no sincronizados.</span>
+</label>
+</div>
+<!-- Item 8 -->
+<div class="bg-surface-container p-space-md rounded flex items-start gap-space-sm hover:bg-surface-container-high transition-colors transition-all duration-300 hover:border-secondary/40 hover:-translate-y-0.5 hover:shadow-[0_4px_20px_rgba(0,0,0,0.5)] cursor-pointer">
+<input class="mt-1 h-5 w-5 rounded bg-surface-container-low accent-secondary-container cursor-pointer" id="check-8" onchange="updateCheckCounter()" type="checkbox">
+<label class="cursor-pointer flex flex-col gap-1" for="check-8">
+<span class="font-headline-sm text-headline-sm text-primary font-medium">Principio de Menor Privilegio</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Operar la estación de trabajo diaria con una cuenta estándar, reservando credenciales de administrador sólo para cambios esenciales.</span>
+</label>
+</div>
+<!-- Item 9 -->
+<div class="bg-surface-container p-space-md rounded flex items-start gap-space-sm hover:bg-surface-container-high transition-colors transition-all duration-300 hover:border-secondary/40 hover:-translate-y-0.5 hover:shadow-[0_4px_20px_rgba(0,0,0,0.5)] cursor-pointer">
+<input class="mt-1 h-5 w-5 rounded bg-surface-container-low accent-secondary-container cursor-pointer" id="check-9" onchange="updateCheckCounter()" type="checkbox">
+<label class="cursor-pointer flex flex-col gap-1" for="check-9">
+<span class="font-headline-sm text-headline-sm text-primary font-medium">Reportar Incidentes Rápidamente</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Comunicar anomalías de inmediato al equipo técnico sin temor a represalias; la velocidad es vital para contener intrusiones.</span>
+</label>
+</div>
+</div>
+<!-- Checklist Score Tracker -->
+<div class="p-space-md rounded bg-surface-container flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-xl">fact_check</span>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">ÍNDICE DE MADUREZ PREVENTIVA PERSONAL:</span>
+</div>
+<span class="font-mono-md text-mono-md text-primary font-bold" id="checklist-score">0 / 9 PRÁCTICAS ACTIVADAS (0%)</span>
+</div>
+</div>
+</section>
+<!-- 11. ARQUITECTURA DE LA SOLUCIÓN CONCEPTUAL -->
+<section class="w-full py-space-3xl px-gutter-desktop bg-surface-container-low">
+<div class="max-w-[1440px] mx-auto flex flex-col gap-space-2xl">
+<div class="flex flex-col gap-space-xs">
+<span class="font-mono-sm text-mono-sm text-secondary uppercase tracking-widest">ARQUITECTURA INTEGRAL DE DEFENSA EN PROFUNDIDAD</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold uppercase tracking-tight">ARQUITECTURA DE LA SOLUCIÓN CONCEPTUAL</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-3xl">
+          Integración sinérgica de capas: el factor humano y la educación nutren los sistemas de monitoreo y mitigación, blindando la infraestructura crítica.
+        </p>
+</div>
+<!-- Hierarchical Flow Visualization -->
+<div class="w-full bg-surface-container p-space-xl rounded flex flex-col gap-space-lg">
+<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-space-sm text-center">
+<div class="bg-surface-container-high p-space-md rounded flex flex-col items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-2xl">person</span>
+<span class="font-mono-sm text-mono-sm text-secondary font-semibold">CAPA 01</span>
+<span class="font-headline-sm text-headline-sm text-primary font-medium">USUARIOS</span>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">Actores conscientes</span>
+</div>
+<div class="bg-surface-container-high p-space-md rounded flex flex-col items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-2xl">school</span>
+<span class="font-mono-sm text-mono-sm text-secondary font-semibold">CAPA 02</span>
+<span class="font-headline-sm text-headline-sm text-primary font-medium">EDUCACIÓN</span>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">Capacitación activa</span>
+</div>
+<div class="bg-surface-container-high p-space-md rounded flex flex-col items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-2xl">monitoring</span>
+<span class="font-mono-sm text-mono-sm text-secondary font-semibold">CAPA 03</span>
+<span class="font-headline-sm text-headline-sm text-primary font-medium">MONITOREO</span>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">Telemetría y SIEM</span>
+</div>
+<div class="bg-surface-container-high p-space-md rounded flex flex-col items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-2xl">troubleshoot</span>
+<span class="font-mono-sm text-mono-sm text-secondary font-semibold">CAPA 04</span>
+<span class="font-headline-sm text-headline-sm text-primary font-medium">ANÁLISIS</span>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">Taxonomía de vectores</span>
+</div>
+<div class="bg-surface-container-high p-space-md rounded flex flex-col items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-2xl">gshield</span>
+<span class="font-mono-sm text-mono-sm text-secondary font-semibold">CAPA 05</span>
+<span class="font-headline-sm text-headline-sm text-primary font-medium">MITIGACIÓN</span>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">Microsegmentación</span>
+</div>
+<div class="bg-surface-container-high p-space-md rounded flex flex-col items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-2xl">domain_verification</span>
+<span class="font-mono-sm text-mono-sm text-secondary-fixed font-semibold">CAPA 06</span>
+<span class="font-headline-sm text-headline-sm text-primary font-medium">INFRAESTRUCTURA</span>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">Perímetro Blindado</span>
+</div>
+</div>
+<div class="bg-surface-container-low p-space-md rounded font-mono-sm text-mono-sm text-on-surface-variant flex flex-col md:flex-row items-center justify-between gap-space-sm">
+<span class="">PARADIGMA INTEGRADO: DEFENSA EN PROFUNDIDAD (NIST SP 800-53 REV 5)</span>
+<span class="text-secondary">RETROALIMENTACIÓN CONTINUA: MONITOREO ⇄ CAPACITACIÓN</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 12. ROADMAP DEL PROYECTO (#roadmap) -->
+<section class="w-full py-space-3xl px-gutter-desktop bg-surface-container-lowest" id="roadmap">
+<div class="max-w-[1440px] mx-auto flex flex-col gap-space-2xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md pb-space-sm">
+<div>
+<div class="font-mono-sm text-mono-sm text-secondary uppercase tracking-widest mb-2">HITOS INVESTIGATIVOS Y ENTREGABLES</div>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold uppercase tracking-tight">ROADMAP DEL PROYECTO</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+          Seguimiento público del desarrollo investigativo sin intermediarios para asegurar transparencia científica en repositorios abiertos.
+        </p>
+</div>
+<!-- Roadmap Trackers -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md">
+<!-- R1 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-primary font-bold">COMPLETADO</span>
+<span class="font-mono-sm text-mono-sm text-secondary">HITO 1.0</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Fase 1: Marco Teórico</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Definición conceptual y formalización del problema de investigación.</p>
+</div>
+<div class="w-full bg-surface-container-low h-1.5 rounded-full overflow-hidden">
+<div class="bg-secondary h-full w-full"></div>
+</div>
+</div>
+<!-- R2 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-primary font-bold">COMPLETADO</span>
+<span class="font-mono-sm text-mono-sm text-secondary">HITO 2.0</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Fase 2: Investigación Documental</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Revisión exhaustiva de normas internacionales, taxonomías y estudios empíricos.</p>
+</div>
+<div class="w-full bg-surface-container-low h-1.5 rounded-full overflow-hidden">
+<div class="bg-secondary h-full w-full"></div>
+</div>
+</div>
+<!-- R3 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container-high font-mono-sm text-mono-sm text-primary-container font-bold">EN CURSO</span>
+<span class="font-mono-sm text-mono-sm text-secondary">HITO 3.0</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Fase 3: Datos Preliminares</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Modelado de incidentes simulados y estructuración de matrices de riesgo.</p>
+</div>
+<div class="w-full bg-surface-container-low h-1.5 rounded-full overflow-hidden">
+<div class="bg-primary-container h-full w-2/3"></div>
+</div>
+</div>
+<!-- R4 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-on-surface-variant font-bold">PLANIFICADO</span>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">HITO 4.0</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Fase 4: Análisis y Correlación</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Identificación de patrones de ataque y vulnerabilidades prevalentes.</p>
+</div>
+<div class="w-full bg-surface-container-low h-1.5 rounded-full overflow-hidden">
+<div class="bg-outline h-full w-0"></div>
+</div>
+</div>
+<!-- R5 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-on-surface-variant font-bold">PLANIFICADO</span>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">HITO 5.0</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Fase 5: Validación Metodológica</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Revisión por pares del modelo y ajustes basados en retroalimentación académica.</p>
+</div>
+<div class="w-full bg-surface-container-low h-1.5 rounded-full overflow-hidden">
+<div class="bg-outline h-full w-0"></div>
+</div>
+</div>
+<!-- R6 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-mono-sm text-mono-sm text-on-surface-variant font-bold">PLANIFICADO</span>
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">HITO 6.0</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Fase 6: Plataforma Interactiva</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Despliegue del simulador educativo y herramientas de autoevaluación.</p>
+</div>
+<div class="w-full bg-surface-container-low h-1.5 rounded-full overflow-hidden">
+<div class="bg-outline h-full w-0"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 13. REPOSITORIO DE RECURSOS (#recursos) -->
+<section class="w-full py-space-3xl px-gutter-desktop bg-surface-container-low" id="recursos">
+<div class="max-w-[1440px] mx-auto flex flex-col gap-space-2xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md pb-space-sm">
+<div>
+<div class="font-mono-sm text-mono-sm text-secondary uppercase tracking-widest mb-2">DOCUMENTACIÓN TÉCNICA &amp; REFERENCIAS</div>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold uppercase tracking-tight">REPOSITORIO DE RECURSOS</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+          Compendio de documentos de trabajo, especificaciones normativas y código reproducible para la comunidad científica y técnica.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md">
+<!-- Resource 1 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-mono-sm text-mono-sm text-secondary">DOC-REF: CSRL-WP-01</span>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">description</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Whitepaper: Topologías Seguras</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Análisis exhaustivo de microsegmentación en arquitecturas Zero-Trust y convergencia WAN/LAN.</p>
+</div>
+<div class="flex items-center justify-between pt-2">
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">PDF // 3.4 MB</span>
+<a class="font-mono-sm text-mono-sm text-secondary hover:text-primary transition-colors flex items-center gap-1" href="#inicio">[ DESCARGAR ]</a>
+</div>
+</div>
+<!-- Resource 2 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-mono-sm text-mono-sm text-secondary">REF: NIST-SP-800-53</span>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">menu_book</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Catálogo de Controles NIST</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Mapeo de controles de seguridad y privacidad para sistemas federales y organizacionales.</p>
+</div>
+<div class="flex items-center justify-between pt-2">
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">EXTERNAL // NIST.GOV</span>
+<a class="font-mono-sm text-mono-sm text-secondary hover:text-primary transition-colors flex items-center gap-1" href="https://csrc.nist.gov" rel="noopener noreferrer" target="_blank">[ ACCEDER ]</a>
+</div>
+</div>
+<!-- Resource 3 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-mono-sm text-mono-sm text-secondary">MATRIX: MITRE ATT&amp;CK</span>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">grid_view</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Tácticas, Técnicas y Procedimientos</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Base de conocimiento de tácticas adversarias del mundo real basada en telemetría observada.</p>
+</div>
+<div class="flex items-center justify-between pt-2">
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">EXTERNAL // MITRE.ORG</span>
+<a class="font-mono-sm text-mono-sm text-secondary hover:text-primary transition-colors flex items-center gap-1" href="https://attack.mitre.org" rel="noopener noreferrer" target="_blank">[ CONSULTAR ]</a>
+</div>
+</div>
+<!-- Resource 4 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-mono-sm text-mono-sm text-secondary">REPO: GITHUB OPEN ACCESS</span>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">code</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Repositorio del Proyecto</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Código fuente, esquemas de topología y scripts de visualización sin backend para GitHub Pages.</p>
+</div>
+<div class="flex items-center justify-between pt-2">
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">GIT // REPO PÚBLICO</span>
+<a class="font-mono-sm text-mono-sm text-secondary hover:text-primary transition-colors flex items-center gap-1" href="https://github.com" rel="noopener noreferrer" target="_blank">[ GITHUB ]</a>
+</div>
+</div>
+<!-- Resource 5 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-mono-sm text-mono-sm text-secondary">GUÍA: EDU-CYBER-01</span>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">checklist</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Guía Rápida de Prevención</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Documento orientativo para centros educativos y organizaciones sobre buenas prácticas inmediatas.</p>
+</div>
+<div class="flex items-center justify-between pt-2">
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">PDF // 1.2 MB</span>
+<a class="font-mono-sm text-mono-sm text-secondary hover:text-primary transition-colors flex items-center gap-1" href="#educacion">[ CONSULTAR ]</a>
+</div>
+</div>
+<!-- Resource 6 -->
+<div class="bg-surface-container p-space-lg rounded flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-mono-sm text-mono-sm text-secondary">ESTÁNDAR: ISO/IEC 27001</span>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">verified</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold">Marco SGSI de Referencia</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Revisión de requisitos de implementación para Sistemas de Gestión de Seguridad de la Información.</p>
+</div>
+<div class="flex items-center justify-between pt-2">
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">NORMATIVA // ISO.ORG</span>
+<a class="font-mono-sm text-mono-sm text-secondary hover:text-primary transition-colors flex items-center gap-1" href="https://www.iso.org" rel="noopener noreferrer" target="_blank">[ DETALLES ]</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 14. SOBRE EL PROYECTO (#proyecto) & CONFIGURACIÓN -->
+<section class="w-full py-space-3xl px-gutter-desktop bg-surface-container-lowest" id="proyecto">
+<div class="max-w-[1440px] mx-auto flex flex-col gap-space-2xl">
+<div class="flex flex-col md:flex-row items-start justify-between gap-space-xl">
+<div class="flex flex-col gap-space-md max-w-2xl">
+<div>
+<div class="font-mono-sm text-mono-sm text-secondary uppercase tracking-widest mb-2">AFILIACIÓN INSTITUCIONAL Y ÉTICA</div>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold uppercase tracking-tight">SOBRE EL PROYECTO</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            CYBERSEC RESEARCH LAB es una iniciativa académica de investigación teórica independiente centrada en la intersección de las telecomunicaciones, la ciberseguridad defensiva y la educación digital preventiva.
+          </p>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Todas las simulaciones, taxonomías y datos presentados en este portal han sido desarrollados con fines exclusivamente formativos y de divulgación científica, sin implicar acceso no autorizado a sistemas informáticos ni recopilación de datos personales de terceros.
+          </p>
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<div class="flex flex-col">
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">LICENCIA</span>
+<span class="font-mono-md text-mono-md text-primary">Creative Commons CC-BY-NC 4.0</span>
+</div>
+<div class="flex flex-col">
+<span class="font-mono-sm text-mono-sm text-on-surface-variant">ENTORNO DE DESPLIEGUE</span>
+<span class="font-mono-md text-mono-md text-primary">GitHub Pages (Vanilla JS / Tailwind)</span>
+</div>
+</div>
+</div>
+<!-- Configuration Card for easy project adaptation -->
+<div class="w-full md:w-auto md:min-w-[420px] bg-surface-container p-space-lg rounded flex flex-col gap-space-md">
+<div class="flex items-center justify-between pb-space-xs">
+<span class="font-headline-sm text-headline-sm text-primary font-semibold">Configuración del Proyecto</span>
+<span class="font-mono-sm text-mono-sm text-secondary">config.json</span>
+</div>
+<div class="flex flex-col gap-space-sm font-mono-sm text-mono-sm">
+<div class="flex justify-between py-1">
+<span class="text-on-surface-variant">INVESTIGADOR PRINCIPAL:</span>
+<span class="text-on-surface font-semibold">Laboratorio de Ciberseguridad</span>
+</div>
+<div class="flex justify-between py-1">
+<span class="text-on-surface-variant">INSTITUCIÓN:</span>
+<span class="text-on-surface font-semibold">Investigación Académica Independiente</span>
+</div>
+<div class="flex justify-between py-1">
+<span class="text-on-surface-variant">AÑO DE EDICIÓN:</span>
+<span class="text-on-surface font-semibold">2026</span>
+</div>
+<div class="flex justify-between py-1">
+<span class="text-on-surface-variant">SERVIDORES DE BACKEND:</span>
+<span class="text-primary-container font-semibold">0 (100% Estático / Seguro)</span>
+</div>
+<div class="flex justify-between py-1">
+<span class="text-on-surface-variant">CONTACTO CIENTÍFICO:</span>
+<span class="text-secondary font-semibold">lab@cybersec-research.local</span>
+</div>
+</div>
+<div class="p-space-sm rounded bg-surface-container-low font-mono-sm text-mono-sm text-on-surface-variant">
+            Para bifurcar este proyecto en GitHub, clone el repositorio y edite las variables del archivo estático sin necesidad de configurar compiladores Node.js ni bases de datos.
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- Floating Back to Top Trigger -->
+<button aria-label="Volver arriba" class="fixed bottom-6 right-6 z-40 p-3 rounded-full bg-surface-container-high text-primary hover:bg-secondary-container hover:text-on-secondary shadow-xl transition-all hidden items-center justify-center" id="backToTopBtn" onclick="window.scrollTo({top:0, behavior:'smooth'})" type="button">
+<span class="material-symbols-outlined text-[22px]">keyboard_arrow_up</span>
+</button>
+<!-- Embedded Client-Side Script for Topo Inspector, Checklist Score, Charts & Scroll Logic -->
+<script>
+    // 1. Topo inspector logic
+    const topoData = {
+      internet: {
+        category: "NODO 01 // BORDE EXTERNO",
+        risk: "NIVEL: EXTERNO",
+        title: "Tráfico WAN no Confiable & Redes Distribuidas",
+        desc: "Entorno hostil de enrutamiento global. Expuesto a escaneos continuos, ataques volumétricos DDoS, spoofing de prefijos BGP y solicitudes no autorizadas dirigidas al espacio IP corporativo.",
+        rec: "Filtrado RPKI, Scrubbing Anti-DDoS y validación BCP 38 en upstream ISPs.",
+        cve: "Riesgo Sistémico WAN"
+      },
+      router: {
+        category: "NODO 02 // BORDE WAN",
+        risk: "NIVEL: ELEVADO",
+        title: "Router Perimetral e Interfaces WAN",
+        desc: "Punto de contacto entre la infraestructura interna y los proveedores de telecomunicaciones. Vulnerable a secuestro de rutas BGP, debilidad en planos de control y exploits en protocolos de gestión.",
+        rec: "Hardening del Control Plane (CoPP), SNMPv3 cifrado y TACACS+ para administración.",
+        cve: "CVE-2024-XXXX Network OS"
+      },
+      firewall: {
+        category: "NODO 03 // INSPECCIÓN PROFUNDA",
+        risk: "NIVEL: CRÍTICO",
+        title: "Firewall de Próxima Generación (NGFW)",
+        desc: "Reglas permisivas por acumulación histórica, omisión de desencriptado TLS saliente y falta de integración con listas de reputación IP permiten la persistencia de túneles de comando y control (C2).",
+        rec: "Auditoría CIS Firewall v2.0, política Default-Deny y desencriptado TLS profundo.",
+        cve: "CVE-2024-3400 (Mitigado)"
+      },
+      switch: {
+        category: "NODO 04 // CONMUTACIÓN LOCAL",
+        risk: "NIVEL: MEDIO",
+        title: "Switch Central (Core L2/L3)",
+        desc: "Ataques de salto de VLAN (VLAN Hopping), saturación de tablas CAM y ataques de envenenamiento ARP (ARP Spoofing) facilitan la interceptación de tráfico no cifrado entre segmentos internos.",
+        rec: "DHCP Snooping, Dynamic ARP Inspection (DAI) y 802.1X Port Security.",
+        cve: "Capa de Enlace Local"
+      },
+      dmz: {
+        category: "NODO 05 // ZONA DESMILITARIZADA",
+        risk: "NIVEL: CRÍTICO",
+        title: "Servidores Públicos & APIs (DMZ)",
+        desc: "Exposición a fallas de deserialización en aplicaciones web, vulnerabilidades en bibliotecas de terceros y desconfiguraciones en contenedores que permiten acceso a la shell del servidor.",
+        rec: "WAF en capa 7, escaneo de contenedores Trivy y aislamiento total hacia la LAN privada.",
+        cve: "OWASP Top 10 Active Risks"
+      },
+      endpoints: {
+        category: "NODO 06 // TERMINALES DE TRABAJO",
+        risk: "NIVEL: CRÍTICO",
+        title: "Estaciones de Trabajo y Dispositivos BYOD",
+        desc: "Estaciones de trabajo susceptibles a ejecución de payloads por correo, phishing de credenciales, vulnerabilidades de día cero en navegadores y falta de aislamiento de procesos.",
+        rec: "Agente EDR con bloqueo de comportamiento, BitLocker/FileVault y MDM.",
+        cve: "T1204 - User Execution"
+      },
+      users: {
+        category: "NODO 07 // FACTOR HUMANO",
+        risk: "NIVEL: MUY CRÍTICO",
+        title: "Usuarios Finales y Operadores",
+        desc: "Vector primordial de intrusión mediante engaño, manipulación de urgencia emocional, clonación de portales de acceso y reutilización de contraseñas de consumo personal.",
+        rec: "Capacitación continua en seguridad, adopción de WebAuthn/FIDO2 y simulaciones no punitivas.",
+        cve: "Ingeniería Social Empírica"
+      }
+    };
+
+    function inspectNode(key) {
+      const data = topoData[key];
+      if (!data) return;
+      document.getElementById('insp-category').textContent = data.category;
+      document.getElementById('insp-risk').textContent = data.risk;
+      document.getElementById('insp-title').textContent = data.title;
+      document.getElementById('insp-desc').textContent = data.desc;
+      document.getElementById('insp-rec').textContent = data.rec;
+      document.getElementById('insp-cve').textContent = data.cve;
+    }
+
+    // 2. Checklist score calculator
+    function updateCheckCounter() {
+      const total = 9;
+      const checked = document.querySelectorAll('#checklist-grid input[type="checkbox"]:checked').length;
+      const pct = Math.round((checked / total) * 100);
+      const scoreElem = document.getElementById('checklist-score');
+      scoreElem.textContent = `${checked} / ${total} PRÁCTICAS ACTIVADAS (${pct}%)`;
+    }
+
+    // 3. Back to top visibility listener
+    window.addEventListener('scroll', () => {
+      const btn = document.getElementById('backToTopBtn');
+      if (window.scrollY > 400) {
+        btn.classList.remove('hidden');
+        btn.classList.add('flex');
+      } else {
+        btn.classList.add('hidden');
+        btn.classList.remove('flex');
+      }
+    });
+
+    // 4. Chart.js dark-mode visual configurations
+    window.addEventListener('DOMContentLoaded', () => {
+      // Common style variables matching design tokens
+      const colorEmerald = '#00FF88';
+      const colorLightEmerald = '#5fff9a';
+      const colorDarkEmerald = '#007139';
+      const colorMuted = '#849585';
+      const colorSurfaceHigh = '#262b29';
+      const colorTextPrimary = '#dfe4e0';
+
+      Chart.defaults.color = colorMuted;
+      Chart.defaults.font.family = 'JetBrains Mono';
+
+      // Chart 1: Threat Distribution Doughnut
+      const ctx1 = document.getElementById('threatDistributionChart');
+      if (ctx1) {
+        new Chart(ctx1, {
+          type: 'doughnut',
+          data: {
+            labels: ['Phishing & Ingeniería Social', 'Ransomware / Malware', 'Credenciales Comprometidas', 'Vulnerabilidades Software', 'DDoS y Otros'],
+            datasets: [{
+              data: [41, 23, 19, 11, 6],
+              backgroundColor: [
+                '#00FF88',
+                '#3fe583',
+                '#00c86a',
+                '#262b29',
+                '#3b4b3d'
+              ],
+              borderWidth: 0,
+              hoverOffset: 6
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                position: 'bottom',
+                labels: {
+                  color: colorTextPrimary,
+                  font: { size: 11 },
+                  boxWidth: 12
+                }
+              }
+            },
+            cutout: '70%'
+          }
+        });
+      }
+
+      // Chart 2: Timeline Line Chart
+      const ctx2 = document.getElementById('incidentTimelineChart');
+      if (ctx2) {
+        new Chart(ctx2, {
+          type: 'line',
+          data: {
+            labels: ['24 Q1', '24 Q2', '24 Q3', '24 Q4', '25 Q1', '25 Q2', '25 Q3', '25 Q4'],
+            datasets: [{
+              label: 'Incidentes Detectados (Simulación)',
+              data: [120, 145, 138, 172, 190, 215, 238, 276],
+              borderColor: colorEmerald,
+              backgroundColor: 'rgba(0, 255, 136, 0.08)',
+              borderWidth: 2,
+              fill: true,
+              tension: 0.3,
+              pointBackgroundColor: colorEmerald,
+              pointRadius: 4
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+              x: {
+                grid: { color: 'rgba(255,255,255,0.05)' },
+                ticks: { color: colorMuted }
+              },
+              y: {
+                grid: { color: 'rgba(255,255,255,0.05)' },
+                ticks: { color: colorMuted }
+              }
+            },
+            plugins: {
+              legend: { display: false }
+            }
+          }
+        });
+      }
+
+      // Chart 3: Attack Vectors Horizontal Bar
+      const ctx3 = document.getElementById('attackVectorsChart');
+      if (ctx3) {
+        new Chart(ctx3, {
+          type: 'bar',
+          data: {
+            labels: ['Credenciales Válidas', 'Phishing E-mail', 'Explotación Externa', 'Ingeniería Social', 'Configuraciones Laxas'],
+            datasets: [{
+              label: '% Casos Registrados',
+              data: [38, 31, 16, 10, 5],
+              backgroundColor: [
+                '#00FF88',
+                '#3fe583',
+                '#00c86a',
+                '#007139',
+                '#262b29'
+              ],
+              borderRadius: 4
+            }]
+          },
+          options: {
+            indexAxis: 'y',
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+              x: {
+                grid: { color: 'rgba(255,255,255,0.05)' },
+                ticks: { color: colorMuted }
+              },
+              y: {
+                grid: { display: false },
+                ticks: { color: colorTextPrimary }
+              }
+            },
+            plugins: {
+              legend: { display: false }
+            }
+          }
+        });
+      }
+
+      // Chart 4: Radar Multi-impact Chart
+      const ctx4 = document.getElementById('impactRadarChart');
+      if (ctx4) {
+        new Chart(ctx4, {
+          type: 'radar',
+          data: {
+            labels: ['Confidencialidad', 'Integridad', 'Disponibilidad', 'Costo Financiero', 'Impacto Reputacional', 'Resiliencia'],
+            datasets: [{
+              label: 'Impacto Promedio CVSS',
+              data: [9.2, 8.4, 7.8, 8.9, 9.0, 5.2],
+              borderColor: colorEmerald,
+              backgroundColor: 'rgba(0, 255, 136, 0.15)',
+              borderWidth: 2,
+              pointBackgroundColor: colorEmerald
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+              r: {
+                angleLines: { color: 'rgba(255,255,255,0.08)' },
+                grid: { color: 'rgba(255,255,255,0.08)' },
+                pointLabels: {
+                  color: colorTextPrimary,
+                  font: { size: 10 }
+                },
+                ticks: {
+                  display: false,
+                  backdropColor: 'transparent'
+                }
+              }
+            },
+            plugins: {
+              legend: { display: false }
+            }
+          }
+        });
+      }
+    });
+  </script>
+</div></main><footer class="w-full bg-surface-container-low py-space-xl"><div class="max-w-[1440px] mx-auto px-gutter-desktop flex flex-col gap-space-lg"><div class="flex flex-col md:flex-row items-center justify-between gap-space-md pb-space-lg"><div class="flex flex-col items-center md:items-start"><span class="font-headline-sm text-headline-sm text-primary uppercase">CYBERSEC LAB</span><p class="font-mono-sm text-mono-sm text-on-surface-variant mt-1">Ciberseguridad · Telecomunicaciones · Investigación · Prevención</p></div><nav class="flex flex-wrap items-center justify-center gap-space-md"><a class="font-mono-sm text-mono-sm text-on-surface-variant hover:text-primary transition-colors" href="https://github.com" rel="noopener noreferrer" target="_blank">GitHub</a><a class="font-mono-sm text-mono-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Marco Teórico</a><a class="font-mono-sm text-mono-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Repositorio Documental</a><a class="font-mono-sm text-mono-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Normativas y Ética Investigativa</a></nav></div><div class="text-center md:text-left font-mono-sm text-mono-sm text-outline"><p class="">© 2026 — Proyecto académico de investigación independiente. Publicado para GitHub Pages. No requiere backend ni autenticación.</p></div></div></footer>
+
+<script>
+  // Tab Switching Logic
+  function switchSimTab(tab) {
+    const btnEmail = document.getElementById('tab-btn-email');
+    const btnHeaders = document.getElementById('tab-btn-headers');
+    const tabEmail = document.getElementById('sim-tab-email');
+    const tabHeaders = document.getElementById('sim-tab-headers');
+
+    if (tab === 'email') {
+      tabEmail.classList.remove('hidden');
+      tabEmail.classList.add('flex');
+      tabHeaders.classList.add('hidden');
+      tabHeaders.classList.remove('flex');
+
+      btnEmail.className = 'px-space-md py-2 rounded-t font-mono-md text-mono-md font-semibold text-primary bg-surface-container-high transition-colors flex items-center gap-2';
+      btnHeaders.className = 'px-space-md py-2 rounded-t font-mono-md text-mono-md font-semibold text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2';
+    } else {
+      tabHeaders.classList.remove('hidden');
+      tabHeaders.classList.add('flex');
+      tabEmail.classList.add('hidden');
+      tabEmail.classList.remove('flex');
+
+      btnHeaders.className = 'px-space-md py-2 rounded-t font-mono-md text-mono-md font-semibold text-primary bg-surface-container-high transition-colors flex items-center gap-2';
+      btnEmail.className = 'px-space-md py-2 rounded-t font-mono-md text-mono-md font-semibold text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2';
+    }
+  }
+
+  // Email Simulation Dataset
+  const emailCases = {
+    caseA: {
+      raw: `Delivered-To: victim-user@enterprise.local
+Received: by 10.14.23.11 with SMTP id a11csp;
+    Wed, 14 May 2025 08:21:04 -0700
+Authentication-Results: mx.enterprise.local;
+    spf=fail (sender IP is 198.51.100.42) smtp.mailfrom=bounce-notice@suspicious-bank-cdn.xyz;
+    dkim=fail (bad sig) header.i=@secure-banco-alerta.com;
+    dmarc=fail (p=quarantine dis=none) header.from=banco-seguro.com
+From: "Banco Seguridad Alerta" <soporte@banco-seguro.com>
+Reply-To: <urgente@phish-recaudacion.top>
+To: victim-user@enterprise.local
+Subject: [URGENTE] Bloqueo inminente de cuenta corporativa en 24h
+Date: Wed, 14 May 2025 15:20:58 +0000
+Message-ID: <20250514152058.9812A@attacker-relay.ru>
+X-Mailer: PHPMailer 6.1.4 (Custom Exploit Script)
+Content-Type: text/html; charset=UTF-8`,
+      score: "94 / 100 RIESGO CRÍTICO",
+      scoreColor: "text-error",
+      title: "Suplantación Bancaria (Phishing Activo)",
+      desc: "El mensaje utiliza una dirección visible 'From' de una entidad financiera reconocida pero proviene de un relay sin autorización SPF y con firma criptográfica DKIM corrupta.",
+      flags: [
+        {
+          id: 'spf',
+          name: 'SPF FAIL',
+          risk: 'ALTO',
+          danger: 'La IP 198.51.100.42 no está autorizada en los registros TXT del DNS oficial.',
+          action: 'Rechazar SMTP en el Gateway con directiva spf=fail -all.'
+        },
+        {
+          id: 'dkim',
+          name: 'DKIM SIGNATURE FAIL',
+          risk: 'CRÍTICO',
+          danger: 'La firma criptográfica no coincide con la clave pública DNS del emisor legítimo.',
+          action: 'Comprobar selector y descartar correos con hash alterado.'
+        },
+        {
+          id: 'replyto',
+          name: 'REPLY-TO MISMATCH',
+          risk: 'CRÍTICO',
+          danger: 'Al responder, el tráfico se redirige a un servidor malicioso externo (phish-recaudacion.top).',
+          action: 'Forzar bloqueo de enrutamiento y cuarentena automática.'
+        },
+        {
+          id: 'urgency',
+          name: 'COERCITIVE URGENCY',
+          risk: 'MEDIO',
+          danger: 'Uso de temporizadores coercitivos (bloqueo en 24h) típico de ingeniería social.',
+          action: 'Filtro semántico en pasarela y entrenamiento anti-phishing.'
+        }
+      ]
+    },
+    caseB: {
+      raw: `Delivered-To: finance@enterprise.local
+Received: from out-relay.external-freemail.com (192.0.2.88)
+    Thu, 22 May 2025 10:14:02 +0100
+Authentication-Results: mx.enterprise.local;
+    spf=pass (smtp.mailfrom=ceo-direct-office@freemail.com);
+    dkim=pass header.i=@freemail.com;
+    dmarc=pass
+From: "Roberto Gomez - CEO" <ceo-direct-office@freemail.com>
+Reply-To: <ceo-confidential@darknet-inbox.net>
+To: finance@enterprise.local
+Subject: Solicitud Confidencial de Transferencia SPEI / Wire URGENTE
+Date: Thu, 22 May 2025 09:13:51 +0000
+X-Priority: 1 (Highest)
+Content-Type: text/plain; charset=UTF-8`,
+      score: "88 / 100 RIESGO ELEVADO",
+      scoreColor: "text-error",
+      title: "Fraude del CEO / Whaling (Ingeniería Social)",
+      desc: "SPF y DKIM son técnicamente válidos porque el atacante creó una cuenta legítima en un proveedor de correo público gratuito imitando el nombre del CEO.",
+      flags: [
+        {
+          id: 'freemail',
+          name: 'PUBLIC FREEMAIL AS EXECUTIVE',
+          risk: 'CRÍTICO',
+          danger: 'El emisor utiliza un dominio gratuito para impersonar al director general fuera del canal corporativo.',
+          action: 'Regla de transporte que alerte o bloquee nombres de ejecutivos desde dominios externos.'
+        },
+        {
+          id: 'wire_urgency',
+          name: 'FINANCIAL WIRE BAIT',
+          risk: 'ALTO',
+          danger: 'Petición directa de fondos eludiendo el procedimiento estándar de compras.',
+          action: 'Implementar protocolo estricto de doble verificación fuera de banda (vocal/presencial).'
+        },
+        {
+          id: 'replyto_hidden',
+          name: 'ANOMALOUS REPLY-TO',
+          risk: 'CRÍTICO',
+          danger: 'Dirección oculta de respuesta dirigida a darknet-inbox.net.',
+          action: 'Detección en pasarela de diferencias entre From y Reply-To para personal clave.'
+        }
+      ]
+    },
+    caseC: {
+      raw: `Delivered-To: admin@enterprise.local
+Received: from mail-prod-02.github.com (140.82.112.2)
+    Fri, 30 May 2025 14:00:12 -0500
+Authentication-Results: mx.enterprise.local;
+    spf=pass (sender IP is 140.82.112.2) smtp.mailfrom=noreply@github.com;
+    dkim=pass (valid 2048-bit rsa) header.i=@github.com;
+    dmarc=pass (p=reject dis=none) header.from=github.com
+From: "GitHub Support" <noreply@github.com>
+To: admin@enterprise.local
+Subject: [GitHub] A personal access token has expired
+Date: Fri, 30 May 2025 19:00:11 +0000
+Message-ID: <github/token-notice/7821938@github.com>
+Content-Type: text/plain; charset=UTF-8`,
+      score: "05 / 100 TRAFICO LEGÍTIMO",
+      scoreColor: "text-secondary",
+      title: "Notificación Verificada con DMARC p=reject",
+      desc: "El mensaje cumple rigurosamente con los 3 estándares de autenticación: SPF alineado, firma DKIM íntegra y directiva DMARC estricta.",
+      flags: [
+        {
+          id: 'dmarc_pass',
+          name: 'DMARC PASS',
+          risk: 'BAJO',
+          danger: 'Sin riesgo. Dominio alineado correctamente y validado contra política DNS oficial.',
+          action: 'Mensaje seguro para entrega regular al buzón.'
+        },
+        {
+          id: 'dkim_valid',
+          name: 'DKIM 2048-BIT OK',
+          risk: 'BAJO',
+          danger: 'Integridad del cuerpo y las cabeceras garantizada criptográficamente.',
+          action: 'Ninguna acción correctiva requerida.'
+        }
+      ]
+    }
+  };
+
+  let currentEmailCase = 'caseA';
+
+  function loadEmailCase(key) {
+    currentEmailCase = key;
+    const data = emailCases[key];
+    if (!data) return;
+
+    document.getElementById('email-raw-headers').textContent = data.raw;
+    const scoreElem = document.getElementById('email-score-badge');
+    scoreElem.textContent = data.score;
+    scoreElem.className = `font-mono-sm text-mono-sm px-2 py-0.5 rounded bg-surface-container-high font-bold ${data.scoreColor}`;
+
+    document.getElementById('email-case-title').textContent = data.title;
+    document.getElementById('email-case-desc').textContent = data.desc;
+
+    // Render flag pills
+    const container = document.getElementById('email-flags-container');
+    container.innerHTML = '';
+    data.flags.forEach((f, idx) => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'px-2.5 py-1 rounded font-mono-sm text-mono-sm bg-surface-container-high hover:bg-secondary hover:text-on-secondary transition-all text-primary flex items-center gap-1';
+      btn.innerHTML = `<span class="h-1.5 w-1.5 rounded-full ${f.risk === 'CRÍTICO' || f.risk === 'ALTO' ? 'bg-error' : 'bg-secondary'}"></span><span>${f.name}</span>`;
+      btn.onclick = () => inspectEmailFlag(f.id);
+      container.appendChild(btn);
+    });
+
+    // Populate first flag
+    if (data.flags.length > 0) {
+      inspectEmailFlag(data.flags[0].id);
+    }
+  }
+
+  function inspectEmailFlag(flagId) {
+    const data = emailCases[currentEmailCase];
+    const flag = data.flags.find(f => f.id === flagId);
+    if (!flag) return;
+
+    document.getElementById('flag-detail-name').textContent = flag.name;
+    const riskElem = document.getElementById('flag-detail-risk');
+    riskElem.textContent = `RIESGO: ${flag.risk}`;
+    riskElem.className = `font-mono-sm text-mono-sm font-bold ${flag.risk === 'CRÍTICO' || flag.risk === 'ALTO' ? 'text-error' : 'text-secondary'}`;
+
+    document.getElementById('flag-detail-desc').textContent = flag.danger;
+    document.getElementById('flag-detail-action').textContent = flag.action;
+  }
+
+  // HTTP Simulation Dataset
+  const httpCases = {
+    httpUnprotected: {
+      grade: "CALIFICACIÓN: F (MUY VULNERABLE)",
+      gradeColor: "text-error",
+      title: "Servidor Expuesto sin Directivas Defensivas",
+      desc: "El servidor web transmite cabeceras que revelan versiones exactas de software y carece de defensas perimetrales básicas como CSP o HSTS.",
+      headers: [
+        {
+          name: "Strict-Transport-Security (HSTS)",
+          value: "(Cabecera ausente)",
+          status: "error",
+          statusLabel: "MISSING",
+          danger: "Los usuarios pueden ser degradados a conexiones HTTP en texto claro mediante ataques SSL Strip / MitM.",
+          code: "Strict-Transport-Security: max-age=63072000; includeSubDomains; preload"
+        },
+        {
+          name: "Content-Security-Policy (CSP)",
+          value: "(Cabecera ausente)",
+          status: "error",
+          statusLabel: "MISSING",
+          danger: "Permite la ejecución indiscriminada de scripts inline y ataques Cross-Site Scripting (XSS).",
+          code: "Content-Security-Policy: default-src 'self'; script-src 'self'; object-src 'none'; base-uri 'self';"
+        },
+        {
+          name: "X-Frame-Options",
+          value: "(Cabecera ausente)",
+          status: "error",
+          statusLabel: "MISSING",
+          danger: "El portal web puede ser incrustado en iframes maliciosos facilitando ataques de Clickjacking.",
+          code: "X-Frame-Options: DENY"
+        },
+        {
+          name: "Server",
+          value: "Apache/2.4.29 (Ubuntu) OpenSSL/1.1.1",
+          status: "warning",
+          statusLabel: "FINGERPRINT EXPUESTO",
+          danger: "Divulga versiones específicas de software que ayudan a atacantes a localizar CVEs aplicables.",
+          code: "ServerTokens Prod\nServerSignature Off"
+        },
+        {
+          name: "X-Content-Type-Options",
+          value: "(Cabecera ausente)",
+          status: "error",
+          statusLabel: "MISSING",
+          danger: "Navegadores pueden interpretar archivos no ejecutables como scripts mediante MIME sniffing.",
+          code: "X-Content-Type-Options: nosniff"
+        }
+      ]
+    },
+    httpHardened: {
+      grade: "CALIFICACIÓN: A+ (MÁXIMA RESILIENCIA)",
+      gradeColor: "text-secondary",
+      title: "Configuración Hardened (NIST & OWASP Compliant)",
+      desc: "Todas las directivas modernas de aislamiento de contexto de navegación se encuentran configuradas con valores restrictivos.",
+      headers: [
+        {
+          name: "Strict-Transport-Security",
+          value: "max-age=63072000; includeSubDomains; preload",
+          status: "ok",
+          statusLabel: "PROTEGIDO",
+          danger: "Protección activa. Forzado HTTPS garantizado por 2 años con inclusión de subdominios.",
+          code: "# Configurado correctamente. Listo para registro en hstspreload.org"
+        },
+        {
+          name: "Content-Security-Policy",
+          value: "default-src 'self'; frame-ancestors 'none'; form-action 'self';",
+          status: "ok",
+          statusLabel: "PROTEGIDO",
+          danger: "Protección activa. Mitiga XSS y restringe la inyección de recursos externos.",
+          code: "# Configuración CSP estricta conforme a OWASP Top 10"
+        },
+        {
+          name: "X-Content-Type-Options",
+          value: "nosniff",
+          status: "ok",
+          statusLabel: "PROTEGIDO",
+          danger: "Protección activa. Impide la reinterpretación de tipos MIME de archivos.",
+          code: "# Cabecera validada sin fallos"
+        },
+        {
+          name: "Referrer-Policy",
+          value: "strict-origin-when-cross-origin",
+          status: "ok",
+          statusLabel: "PROTEGIDO",
+          danger: "Protege la privacidad evitando la fuga de parámetros de URL sensibles hacia sitios de terceros.",
+          code: "Referrer-Policy: strict-origin-when-cross-origin"
+        }
+      ]
+    },
+    httpLegacy: {
+      grade: "CALIFICACIÓN: C- (DEGRADADO)",
+      gradeColor: "text-error",
+      title: "Cifrado Débil y Protocolos Obsoletos",
+      desc: "El servidor aún soporta suites de cifrado CBC obsoletas y protocolos TLS discontinuados propensos a ataques como POODLE y BEAST.",
+      headers: [
+        {
+          name: "TLS Version",
+          value: "TLSv1.0 (RFC 2246 Deprecated)",
+          status: "error",
+          statusLabel: "OBSOLETO",
+          danger: "Vulnerable a ataques de texto plano conocido y desactivado por el consorcio PCI-DSS.",
+          code: "SSLProtocol -all +TLSv1.2 +TLSv1.3"
+        },
+        {
+          name: "Cipher Suite",
+          value: "TLS_RSA_WITH_3DES_EDE_CBC_SHA",
+          status: "error",
+          statusLabel: "DÉBIL / 3DES",
+          danger: "Cifrador 3DES de 64 bits susceptible a la vulnerabilidad SWEET32.",
+          code: "SSLCipherSuite ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256"
+        },
+        {
+          name: "Session Resumption",
+          value: "Session Tickets sin rotación de claves",
+          status: "warning",
+          statusLabel: "RIESGO CRIPTOGRÁFICO",
+          danger: "Compromete el Forward Secrecy si la clave de ticket estática resulta filtrada.",
+          code: "SSLOpenSSLConfCmd SessionTicket Off"
+        }
+      ]
+    }
+  };
+
+  let currentHttpCase = 'httpUnprotected';
+
+  function loadHttpCase(key) {
+    currentHttpCase = key;
+    const data = httpCases[key];
+    if (!data) return;
+
+    const badge = document.getElementById('http-grade-badge');
+    badge.textContent = data.grade;
+    badge.className = `font-mono-md text-mono-md px-3 py-1 rounded bg-surface-container-high font-bold ${data.gradeColor}`;
+
+    document.getElementById('http-profile-title').textContent = data.title;
+    document.getElementById('http-profile-desc').textContent = data.desc;
+
+    const listContainer = document.getElementById('http-headers-list');
+    listContainer.innerHTML = '';
+
+    data.headers.forEach((h, idx) => {
+      const item = document.createElement('button');
+      item.type = 'button';
+      item.className = 'w-full text-left p-space-sm rounded bg-surface-container-low hover:bg-surface-container-high transition-colors flex items-center justify-between gap-space-xs';
+      item.onclick = () => inspectHttpHeader(idx);
+
+      const badgeColor = h.status === 'ok' ? 'bg-secondary/20 text-secondary' : (h.status === 'warning' ? 'bg-primary-container/20 text-primary-container' : 'bg-error/20 text-error');
+
+      item.innerHTML = `
+        <div class="flex flex-col gap-0.5 max-w-[70%]">
+          <span class="font-mono-sm text-mono-sm text-primary font-semibold">${h.name}</span>
+          <span class="font-mono-sm text-mono-sm text-on-surface-variant truncate">${h.value}</span>
+        </div>
+        <span class="font-mono-sm text-mono-sm px-2 py-0.5 rounded ${badgeColor} font-bold shrink-0">${h.statusLabel}</span>
+      `;
+      listContainer.appendChild(item);
+    });
+
+    if (data.headers.length > 0) {
+      inspectHttpHeader(0);
+    }
+  }
+
+  function inspectHttpHeader(index) {
+    const data = httpCases[currentHttpCase];
+    const h = data.headers[index];
+    if (!h) return;
+
+    document.getElementById('selected-header-name').textContent = h.name;
+    const statusElem = document.getElementById('selected-header-status');
+    statusElem.textContent = `ESTADO: ${h.statusLabel}`;
+    statusElem.className = `font-mono-sm text-mono-sm font-bold ${h.status === 'ok' ? 'text-secondary' : (h.status === 'warning' ? 'text-primary-container' : 'text-error')}`;
+
+    document.getElementById('selected-header-danger-desc').textContent = h.danger;
+    document.getElementById('selected-header-code').textContent = h.code;
+  }
+
+  // Initialize Workbench on DOM load
+  window.addEventListener('DOMContentLoaded', () => {
+    loadEmailCase('caseA');
+    loadHttpCase('httpUnprotected');
+  });
+</script>
+
+</body></html>
