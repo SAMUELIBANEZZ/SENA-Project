@@ -1,4 +1,3 @@
-
 <!-- Banner Animado -->
 
 <p align="center">
