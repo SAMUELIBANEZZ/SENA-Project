@@ -11,10 +11,10 @@
   <img src="https://img.shields.io/badge/PLATAFORMA-WEB_INTERACTIVA-049fd9?style=for-the-badge&logo=html5&logoColor=white">
 </p>
 
-<h1 align="center">🛡️ Proyecto Cúcuta Segura: Ciberseguridad e Infraestructura de Redes</h1>
+<h1 align="center">🛡️ Ciberseguridad para las nuevas generaciones en Cúcuta: análisis de contexto, estado del arte y prospectiva tecnológica 2026-2031</h1>
 
 <p align="center">
-  <em>Fortalecimiento integral de las capacidades tecnológicas y mitigación de riesgos digitales para las nuevas generaciones (2026-2031).</em>
+  <em>Fortalecimiento integral de las capacidades tecnológicas y mitigación de riesgos digitales en la región.</em>
 </p>
 
 <p align="center">
