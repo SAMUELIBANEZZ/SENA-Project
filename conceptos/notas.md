@@ -1,4 +1,3 @@
-
 <div align="center">
   <h2>🧠 Base de Conocimiento y Conceptos</h2>
   <p><em>Glosario, apuntes y fundamentos técnicos para la implementación de redes y ciberseguridad.</em></p>
@@ -8,13 +7,12 @@
 
 ### 📖 Propósito de este directorio
 
-Este espacio está destinado a almacenar la teoría fundamental que respalda el proyecto. Aquí se documentarán los conceptos esenciales necesarios para la comprensión de la infraestructura tecnológica, desde protocolos básicos hasta arquitecturas avanzadas de seguridad.
+Este espacio almacena la teoría fundamental que respalda el proyecto. Documenta los conceptos esenciales para la comprensión de la infraestructura tecnológica, desde protocolos básicos hasta arquitecturas de seguridad.
 
-### 📌 Áreas Temáticas a Cubrir
+### 📂 Contenido de la Carpeta
 
-* **Fundamentos de Redes:** Direccionamiento IPv4 e IPv6, segmentación, y enrutamiento.
-* **Infraestructura de Telecomunicaciones:** Configuración de equipos (Switches, Routers), establecimiento de interfaces virtuales (SVI), y gestión de VLANs.
-* **Ciberseguridad:** Vectores de ataque comunes (*phishing*, *malware*), técnicas de mitigación, y análisis de tráfico.
+* 📄 **`fundamentos.md`**: Conceptos clave sobre redes, configuración de interfaces y vectores de ataque.
+* 📄 **`notas.md`**: Apuntes y borradores activos de la investigación.
 
 <br>
 <p align="center">
