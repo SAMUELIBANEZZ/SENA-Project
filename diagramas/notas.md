@@ -1,27 +1,22 @@
-<br>
-<p align="center">
-  <img src="https://img.shields.io/badge/Herramientas-Esquematización_Visual-success?style=for-the-badge">
-</p>
-
 <div align="center">
-  <h2>📊 Diagramas, Esquemas y Topologías</h2>
-  <p><em>Representación visual de la arquitectura del proyecto, problemas y soluciones.</em></p>
+  <h2>📊 Diagramas y Modelado Visual</h2>
+  <p><em>Representación gráfica del análisis estructural y proyecciones del proyecto.</em></p>
 </div>
 
 ---
 
 ### 🖼️ Propósito de este directorio
 
-La visualización es clave para entender sistemas complejos. Esta carpeta contiene todos los recursos gráficos y esquemáticos del análisis de Ciberseguridad en Cúcuta.
+La visualización estratégica es clave para comunicar la ruta del proyecto. Esta carpeta centraliza los esquemas lógicos y los formatos de presentación académica.
 
-### 📂 Contenido de la Carpeta
+### 📂 Inventario de Recursos Gráficos
 
-* 🖼️ **`Arbol_de_Problemas.jpeg`**: Diagnóstico de la vulnerabilidad digital y causas raíz en la región.
-* 🖼️ **`Arbol_de_Objetivos.jpeg`**: Proyección estratégica para alcanzar la resiliencia tecnológica.
-* 🖼️ **`Impactos.jpeg`**: Esquematización de las consecuencias de las brechas de seguridad.
-* 🖼️ **`3.jpeg`**: Material de apoyo visual adicional.
+1. **Árbol de Problemas (`Arbol_de_Problemas.jpeg`):** Diagnóstico de causas y efectos de la vulnerabilidad digital en Cúcuta.
+2. **Árbol de Objetivos (`Arbol_de_Objetivos.jpeg`):** Estructura de fines y medios para alcanzar la resiliencia tecnológica.
+3. **Mapa de Impactos (`Impactos.jpeg`):** Proyección de los beneficios sociales, tecnológicos y educativos de la implementación.
+4. **Formatos de Presentación:** Plantilla oficial para el póster del Encuentro de Semilleros.
 
 <br>
 <p align="center">
-  <img src="https://img.shields.io/badge/Herramientas-Esquematización_Visual-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Modelado-Estructural-success?style=for-the-badge">
 </p>
