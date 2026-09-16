@@ -1,3 +1,4 @@
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="separador">
 </p>
@@ -26,12 +27,14 @@ Este espacio centraliza los reportes de evaluación individual y grupal generado
 
 ## 👥 Integrantes del Grupo
 
-|   Integrante   | Documento |                                         Reporte                                         |
-| :------------: | :--------: | :-------------------------------------------------------------------------------------: |
-| Samuel Esteban | 1022949685 | [`Evaluacion_SamuelEsteban_1022949685.pdf`](./Evaluacion_SamuelEsteban_1022949685.pdf) |
-| Marlon Santiny | 1000226632 | [`Evaluacion_MarlonSantiny_1000226632.pdf`](./Evaluacion_MarlonSantiny_1000226632.pdf) |
+|   Integrante   | Documento |                                          Reporte                                          |
+| :-------------: | :--------: | :---------------------------------------------------------------------------------------: |
+| Geiber Santiago | 1013103119 | [`Evaluacion_GeiberSantiago_1013103119.pdf`](./Evaluacion_GeiberSantiago_1013103119.pdf) |
+| Marlon Santiny | 1000226632 |  [`Evaluacion_MarlonSantiny_1000226632.pdf`](./Evaluacion_MarlonSantiny_1000226632.pdf)  |
+| Samuel Esteban | 1022949685 |  [`Evaluacion_SamuelEsteban_1022949685.pdf`](./Evaluacion_SamuelEsteban_1022949685.pdf)  |
+| Yosman Ernesto | 1094048998 |  [`Evaluacion_YosmanErnesto_1094048998.pdf`](./Evaluacion_YosmanErnesto_1094048998.pdf)  |
 
-> Por el momento solo se cuenta con estas dos evidencias de evaluación. Esta tabla se irá actualizando conforme se agreguen los reportes de los demás integrantes del grupo.
+> Evaluaciones cargadas de los 4 integrantes del grupo.
 
 ---
 
