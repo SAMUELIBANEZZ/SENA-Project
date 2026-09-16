@@ -54,23 +54,20 @@ El proyecto incluye una **Landing Page interactiva y responsiva** desplegada med
 
 El proyecto está organizado de manera modular para separar los fundamentos, los recursos gráficos y la documentación administrativa:
 
-```text
-SENA-Project/
-├── index.html              # Página web principal interactiva (Landing Page)
-├── conceptos/              # Base de conocimiento
-│   ├── fundamentos.md      # Apuntes y teoría de redes/seguridad
-│   └── README.md
-├── diagramas/              # Modelado y recursos visuales
-│   ├── Arbol_de_Problemas.jpeg
-│   ├── Arbol_de_Objetivos.jpeg
-│   ├── Impactos.jpeg
-│   ├── Formato_póster...   # Plantilla para encuentro de semilleros
-│   └── README.md
-└── docs/                   # Estado del arte, matrices y reportes científicos
-    ├── Informes y Matrices (Vester, SMART, Biblioshiny)
-    ├── Artículos científicos (Sensors, IoT)
-    └── README.md
-```
+- **`index.html`** — Página web principal interactiva (Landing Page)
+- **`conceptos/`** — Base de conocimiento
+  - `fundamentos.md` — Apuntes y teoría de redes/seguridad
+  - `README.md`
+- **`diagramas/`** — Modelado y recursos visuales
+  - `Arbol_de_Problemas.jpeg`
+  - `Arbol_de_Objetivos.jpeg`
+  - `Impactos.jpeg`
+  - `Formato_póster...` — Plantilla para encuentro de semilleros
+  - `README.md`
+- **`docs/`** — Estado del arte, matrices y reportes científicos
+  - Informes y Matrices (Vester, SMART, Biblioshiny)
+  - Artículos científicos (Sensors, IoT)
+  - `README.md`
 
 ---
 
