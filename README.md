@@ -43,7 +43,7 @@ El proyecto incluye una **Landing Page interactiva y responsiva** desplegada med
 
 |                   Diagnóstico del Contexto                   |                   Proyección Estratégica                   |
 | :-----------------------------------------------------------: | :----------------------------------------------------------: |
-|                                                              |                                                              |
+|   ![Árbol de Problemas](diagramas/Arbol_de_Problemas.jpeg)   |  ![Árbol de Objetivos](diagramas/Arbol_de_Objetivos.jpeg)  |
 | *Identificación y análisis de la vulnerabilidad digital.* | *Fines y medios orientados a la resiliencia tecnológica.* |
 
 <p align="center">
