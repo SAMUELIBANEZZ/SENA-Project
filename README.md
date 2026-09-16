@@ -35,7 +35,7 @@
 
 ## 🚀 Sobre el Portafolio y la Iniciativa
 
-Este repositorio contiene el desarrollo conceptual, la documentación de investigación, el estado del arte y la interfaz web interactiva para el proyecto de **Implementación de Redes y Servicios de Telecomunicaciones**.
+Este repositorio contiene el desarrollo conceptual, la documentación de investigación, el estado del arte, las evaluaciones del equipo y la interfaz web interactiva para el proyecto de **Implementación de Redes y Servicios de Telecomunicaciones**.
 
 La iniciativa aborda la creciente exposición a amenazas digitales en la región de Cúcuta, planteando soluciones desde el diseño seguro de redes (segmentación, infraestructura) hasta la concientización preventiva frente a ciberataques y vulnerabilidades.
 
@@ -45,10 +45,10 @@ La iniciativa aborda la creciente exposición a amenazas digitales en la región
 
 El proyecto incluye una **Landing Page interactiva y responsiva** desplegada mediante *GitHub Pages*, diseñada bajo una estética *cybersec* de alta fidelidad con pestañas funcionales y simulación defensiva.
 
-|                   Diagnóstico del Contexto                   |                   Proyección Estratégica                   |
-| :-----------------------------------------------------------: | :----------------------------------------------------------: |
-|   ![Árbol de Problemas](diagramas/Arbol_de_Problemas.jpeg)   |  ![Árbol de Objetivos](diagramas/Arbol_de_Objetivos.jpeg)  |
-| *Identificación y análisis de la vulnerabilidad digital.* | *Fines y medios orientados a la resiliencia tecnológica.* |
+|                        Diagnóstico del Contexto                        |                        Proyección Estratégica                        |
+| :---------------------------------------------------------------------: | :---------------------------------------------------------------------: |
+| ![Árbol de Problemas](<Evidencias%20Graficas/Arbol_de_Problemas.jpeg>) | ![Árbol de Objetivos](<Evidencias%20Graficas/Arbol_de_Objetivos.jpeg>) |
+|      *Identificación y análisis de la vulnerabilidad digital.*      |      *Fines y medios orientados a la resiliencia tecnológica.*      |
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="separador">
@@ -56,21 +56,30 @@ El proyecto incluye una **Landing Page interactiva y responsiva** desplegada med
 
 ## 📂 Arquitectura y Estructura del Repositorio
 
-El proyecto está organizado de manera modular para separar los fundamentos, los recursos gráficos y la documentación administrativa:
+El proyecto está organizado de manera modular para separar la investigación, los recursos gráficos, las evaluaciones del equipo y la interfaz web:
 
 - **`index.html`** — Página web principal interactiva (Landing Page)
-- **`conceptos/`** — Base de conocimiento
-  - `fundamentos.md` — Apuntes y teoría de redes/seguridad
+- **`Articulos de Investigación/`** — Glosario, apuntes y artículos científicos de referencia
+  - `fundamentos.md` — Conceptos clave sobre redes, configuración de interfaces y vectores de ataque
+  - `notas.md` — Apuntes y borradores activos de la investigación
+  - Artículos científicos indexados (Sensors, Springer, IEEE, ACM, entre otros)
   - `README.md`
-- **`diagramas/`** — Modelado y recursos visuales
+- **`Documentos de Investigación y Analisis/`** — Estado del arte, matrices y reportes científicos
+  - Metodología y planeación estratégica (Matriz de Temas, Objetivos SMART, Informe Vester)
+  - Vigilancia científico-tecnológica (Biblioshiny, ecuaciones de búsqueda, exploración con IA)
+  - Resúmenes Analíticos de Investigación (RAI)
+  - Literatura de referencia (IoT, Sensors)
+  - `README.md`
+- **`Evaluaciones/`** — Reportes de evaluación individual de los integrantes del grupo
+  - `Evaluacion_GeiberSantiago_1013103119.pdf`
+  - `Evaluacion_MarlonSantiny_1000226632.pdf`
+  - `Evaluacion_SamuelEsteban_1022949685.pdf`
+  - `Evaluacion_YosmanErnesto_1094048998.pdf`
+  - `README.md`
+- **`Evidencias Graficas/`** — Modelado y recursos visuales
   - `Arbol_de_Problemas.jpeg`
   - `Arbol_de_Objetivos.jpeg`
-  - `Impactos.jpeg`
-  - `Formato_póster...` — Plantilla para encuentro de semilleros
-  - `README.md`
-- **`docs/`** — Estado del arte, matrices y reportes científicos
-  - Informes y Matrices (Vester, SMART, Biblioshiny)
-  - Artículos científicos (Sensors, IoT)
+  - `Formato póster Encuentro de semilleros 2026.pptx`
   - `README.md`
 
 ---
