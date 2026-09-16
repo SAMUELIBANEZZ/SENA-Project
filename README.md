@@ -12,7 +12,7 @@
 <h1 align="center">🛡️ Ciberseguridad para las nuevas generaciones en Cúcuta: análisis de contexto, estado del arte y prospectiva tecnológica 2026-2031</h1>
 
 <p align="center">
-  <em>Fortalecimiento integral de las capacidades tecnológicas y mitigación de riesgos digitales en la región.</em>
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=20&duration=3500&pause=1200&color=39D6D0&center=true&vCenter=true&width=750&lines=Fortalecimiento+tecnol%C3%B3gico+y+mitigaci%C3%B3n+de+riesgos+digitales;Ciberseguridad+aplicada+a+redes+y+telecomunicaciones;An%C3%A1lisis+de+contexto+%7C+Estado+del+arte+%7C+Prospectiva+2026-2031" alt="Subtítulo animado">
 </p>
 
 <p align="center">
@@ -22,11 +22,15 @@
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif" alt="Cybersecurity Animation" width="600" style="border-radius: 10px;">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:39D6D0&height=130&section=header&animation=fadeIn" alt="separador animado" width="100%">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="separador">
+  <img src="https://media3.giphy.com/media/gJjn1kAECp3suVgCXQ/giphy.gif" alt="Cybersecurity Defense Animation" width="320" style="border-radius: 10px;">
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:39D6D0,50:203A43,100:0F2027&height=130&section=header&animation=fadeIn&reversed=true" alt="separador animado" width="100%">
 </p>
 
 ## 🚀 Sobre el Portafolio y la Iniciativa
@@ -89,3 +93,7 @@ El proyecto está organizado de manera modular para separar los fundamentos, los
 ## 📜 Licencia y Autoría
 
 Desarrollado en el marco del programa de **Implementación de Redes y Servicios de Telecomunicaciones** del SENA CEET. Proyecto de carácter investigativo y prospectivo.
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:39D6D0&height=100&section=footer" alt="footer">
+</p>
